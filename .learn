@@ -1,7 +1,10 @@
 tags:
-  - tag_1
-  - tag_2
+  - APIs
+  - OAuth
+  - faraday
+  - postman
+  - rails
+  - JSON
 languages:
-  - language_1
-  - language_1
+  - ruby
 resources: 0
