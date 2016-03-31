@@ -137,7 +137,7 @@ see our tips after we've added them:
 ```ruby
 # routes.rb
 # ...
-resources :tips, only [:index, :create]
+resources :tips, only: [:index, :create]
 ```
 
 Let's get into the `TipsController` and set up the `create` action:
@@ -243,3 +243,5 @@ or JSON in the body equally well.
 
 Pay close attention to the documentation of the API provider to make
 sure you're setting your request data in the right place!
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-posting-requests'>Posting to APIs </a> on Learn.co and start learning to code for free.</p>
