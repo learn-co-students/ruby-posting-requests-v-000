@@ -4,7 +4,7 @@
 
   1. Understand what POST params are
   2. Send POST requests with params via Postman and Faraday
-  3. Understand the difference betwene POST params and JSON in the body
+  3. Understand the difference between POST params and JSON in the body
 
 ## Lesson
 
@@ -245,3 +245,5 @@ Pay close attention to the documentation of the API provider to make
 sure you're setting your request data in the right place!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-posting-requests'>Posting to APIs </a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-posting-requests'>Posting to APIs </a> on Learn.co and start learning to code for free.</p>
