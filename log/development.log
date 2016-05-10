@@ -1570,3 +1570,59 @@ Processing by SearchesController#search as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-10 12:06:42 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-10 12:08:45 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=HXWAKZSCJVEP112U2TQTUITCKUCIBKK3E2NKFIMIXA0KKLC1&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OBYJZVGAZDJN330PEEJXCNUO4ZV2KH4A35V1A1DWSQZXXNUJ" for ::1 at 2016-05-10 12:09:13 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OBYJZVGAZDJN330PEEJXCNUO4ZV2KH4A35V1A1DWSQZXXNUJ"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 739ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-10 12:09:14 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 654ms (Views: 653.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-10 12:09:15 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-05-10 12:09:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-05-10 12:09:15 -0500
+
+
+Started POST "/search" for ::1 at 2016-05-10 12:10:38 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vfN9PsSXSPB+cpKqXhdU10zHm41//u9tVlhtIGXRdJV0BK3yZzZX9afLAbq6cHkBjpVB9y8y0VltFXUFk9Ut6g==", "zipcode"=>"60137", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 4947ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-05-10 12:13:16 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZMwSr3fKKwfa43Pyt73ArRIx6ldHCqaQ7b2xQ+isfUmtO8Jj1Gs0AgNa4OJT2u170GMwLRfGmKTW8KlmHqgkNg==", "venue_id"=>"507045cfe4b0cc0ec0d1f80a", "tip"=>"Good stuff!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 346ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-05-10 12:13:16 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 294ms (Views: 34.6ms | ActiveRecord: 0.0ms)
