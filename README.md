@@ -1,4 +1,4 @@
-# Posting To APIs
+# Posting to APIs
 
 ## Objectives
 
@@ -42,7 +42,7 @@ So, we're going to POST to `https://api.foursquare.com/v2/tips/add`, then we nee
 
 ```
 venueId      YOUR_VENUE_ID
-text         "Love this place!"
+text         Love this place!
 oauth_token  YOUR_TOKEN
 v            20160201
 ```
@@ -56,7 +56,7 @@ If we've done it right, when we hit "Send", we should get a response that looks 
     "tip": {
       "id": "56c223e1498e82b67c98f548",
       "createdAt": 1455563745,
-      "text": "This place is great!",
+      "text": "Love this place!",
       "type": "user",
       "canonicalUrl": "https://foursquare.com/item/56c223e1498e82b67c98f548",
       "likes": {
@@ -197,6 +197,4 @@ In Postman, there's a section under the URL entry that has a place where you can
 
 Pay close attention to the documentation of the API provider to make sure you're setting your request data in the right place!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-posting-requests'>Posting to APIs </a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-posting-requests'>Posting to APIs </a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-posting-requests' title='Posting to APIs'>Posting to APIs</a> on Learn.co and start learning to code for free.</p>
