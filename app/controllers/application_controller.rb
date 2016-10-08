@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
 private
 
   def authenticate_user
+    #byebug
     client_id = ENV['FOURSQUARE_CLIENT_ID']
     redirect_uri = CGI.escape("http://localhost:3000/auth")
     foursquare_url = "https://foursquare.com/oauth2/authenticate?client_id=#{client_id}&response_type=code&redirect_uri=#{redirect_uri}"
