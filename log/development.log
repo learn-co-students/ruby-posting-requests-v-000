@@ -1535,3 +1535,381 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-10-08 13:00:25 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 34ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RT0YIT3AGZPJEDCEFR3RSHQ0BHTYJS02FMAPSBKSVLWNZ2P0" for ::1 at 2016-10-08 13:00:30 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"RT0YIT3AGZPJEDCEFR3RSHQ0BHTYJS02FMAPSBKSVLWNZ2P0"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 696ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:00:31 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:13:51 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1XOC13FMCWO2S2LUAKX00JNZ0HW23DGJXVIWJCGEDYAT44VB" for ::1 at 2016-10-08 13:13:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1XOC13FMCWO2S2LUAKX00JNZ0HW23DGJXVIWJCGEDYAT44VB"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 247ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:13:54 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:15:26 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 13:15:27 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DK24T40JWZFVIRUDRBHU4JMT2INB5VIAM5BJLFTLIIR444GP" for ::1 at 2016-10-08 13:15:32 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DK24T40JWZFVIRUDRBHU4JMT2INB5VIAM5BJLFTLIIR444GP"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 186ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:15:32 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 13:27:01 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PO0LFSOMX2HKKZD3V0LNCHD2HDO5ZGDI1EJZPUD2IJYE25C5" for ::1 at 2016-10-08 13:27:13 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PO0LFSOMX2HKKZD3V0LNCHD2HDO5ZGDI1EJZPUD2IJYE25C5"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 311ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:27:13 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 13:37:03 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SH4VYM4AHCSZ5L5QGWORVCTD4UZ33AD52JY3UD4SYKZNGNXB" for ::1 at 2016-10-08 13:37:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SH4VYM4AHCSZ5L5QGWORVCTD4UZ33AD52JY3UD4SYKZNGNXB"}
+Completed 500 Internal Server Error in 785ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007fe45bee3dc8>):
+  app/controllers/sessions_controller.rb:15:in `create'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (191.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (275.3ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (987.5ms)
+
+
+Started PUT "/__web_console/repl_sessions/9d318ce902952066c80faed14c68f4fe" for ::1 at 2016-10-08 13:37:28 -0400
+
+
+Started PUT "/__web_console/repl_sessions/9d318ce902952066c80faed14c68f4fe" for ::1 at 2016-10-08 13:37:38 -0400
+
+
+Started PUT "/__web_console/repl_sessions/9d318ce902952066c80faed14c68f4fe" for ::1 at 2016-10-08 13:38:01 -0400
+
+
+Started GET "/search" for ::1 at 2016-10-08 13:40:24 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ITNVPMOEIFPRQS2ZL0ZVVGTYF23OEGRAYMZSEIPF0TDZLIAB" for ::1 at 2016-10-08 13:40:26 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ITNVPMOEIFPRQS2ZL0ZVVGTYF23OEGRAYMZSEIPF0TDZLIAB"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 652ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 13:40:27 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=AIC2YKYKJLIV5DXP32VMECTXAIUIEE1WND5DEIBZFSF1RRNI" for ::1 at 2016-10-08 13:40:38 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AIC2YKYKJLIV5DXP32VMECTXAIUIEE1WND5DEIBZFSF1RRNI"}
+Completed 500 Internal Server Error in 650ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007fe45be6a770>):
+  app/controllers/sessions_controller.rb:15:in `create'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (145.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (124.1ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (312.3ms)
+
+
+Started PUT "/__web_console/repl_sessions/9baaf36f83228ffb07203cfd108cfeda" for ::1 at 2016-10-08 13:40:45 -0400
+
+
+Started PUT "/__web_console/repl_sessions/9baaf36f83228ffb07203cfd108cfeda" for ::1 at 2016-10-08 13:40:53 -0400
+
+
+Started PUT "/__web_console/repl_sessions/9baaf36f83228ffb07203cfd108cfeda" for ::1 at 2016-10-08 13:40:57 -0400
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:22:50 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5HXFGCLLEXUDKGM3JDFEWIZGT13NOBVNJQH2R2XO4IX2RDH1" for ::1 at 2016-10-08 14:23:11 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5HXFGCLLEXUDKGM3JDFEWIZGT13NOBVNJQH2R2XO4IX2RDH1"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 334ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 14:23:11 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:24:24 -0400
+
+NoMethodError (undefined method `pry' for #<Binding:0x007fe45d1555b0>):
+  config/routes.rb:5:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (232.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (231.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (523.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:24:54 -0400
+
+LoadError (cannot load such file -- pry):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (283.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (265.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (648.9ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:25:34 -0400
+
+SystemExit (exit):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (438.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (223.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (32.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (994.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.1ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (12.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (382.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (15.1ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (21.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (919.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:29:26 -0400
+Processing by SearchesController#search as HTML
+Completed 500 Internal Server Error in 195186ms (ActiveRecord: 0.0ms)
+
+SystemExit (exit):
+  app/controllers/application_controller.rb:11:in `authenticate_user'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (451.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (105.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (791.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.5ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (488.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (10.2ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (1315.5ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:32:48 -0400
+Processing by SearchesController#search as HTML
+Completed 500 Internal Server Error in 27047ms (ActiveRecord: 0.0ms)
+
+SystemExit (exit):
+  app/controllers/application_controller.rb:11:in `authenticate_user'
+
+
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (359.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (82.6ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (590.4ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.3ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.8ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.1ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (159.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.9ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.7ms)
+  Rendered /Users/ntd/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (350.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:33:19 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBRL4N4CBDUDLJHGJMRAB3E3US1L1T1O3OK3UXT5MWVHDOYI&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DJHJUMMYAXXHKUBWWZIVJELYPYT1T54TSQXDL5CAGTNNQB1F" for ::1 at 2016-10-08 14:33:23 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DJHJUMMYAXXHKUBWWZIVJELYPYT1T54TSQXDL5CAGTNNQB1F"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 981ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 14:33:25 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 4747ms (Views: 4737.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:59:08 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 810ms (Views: 776.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-08 14:59:10 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-08 14:59:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-10-08 14:59:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-10-08 14:59:10 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-10-08 14:59:10 -0400
+
+
+Started GET "/search" for ::1 at 2016-10-08 14:59:10 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-10-08 14:59:20 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hMVwFQ/gVzrX+8csZXKhm2jvVnghpHj3VfucprUAHQgkojiTXlfkQBuOlO0Pww2JfILEe1yrmkzH4+x1dMjUjA==", "zipcode"=>"06107", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 4150ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-10-08 14:59:43 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qkJyYsM7wI5EzVOjPkKop+b0OYc584yXqTQ7MDnt28gKJTrkkoxz9Ii4AGJU8wS18pmrhET8biw7LEvj+CUSTA==", "venue_id"=>"4be6bedb7e2a76b0f2ed1c9b", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 5757ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-10-08 14:59:49 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 510ms (Views: 43.1ms | ActiveRecord: 0.0ms)
