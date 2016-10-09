@@ -1913,3 +1913,44 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-09 14:11:22 -0400
+
+
+Started POST "/search" for ::1 at 2016-10-09 14:27:51 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"35TbrHoOB3BCphjnJViOvWSYZ3MHEz6XVObRA3/CQ7rHr1fMlwx+bYwrDSX8Ps5LgwAoPpSfCcl5/pXbaxXEkQ==", "zipcode"=>"11111", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 427ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-10-09 14:28:23 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GRWXCyIFz7DMY0kty5fBQPNGp9x5sAY4eDRXLDgUWSMBLhtrzwe2rQLuXO8S8YG2FN7okeo8MWZVLBP0LMPeCA==", "venue_id"=>"54667f3e498eb1342cd1a388", "tip"=>"today is domingo", "commit"=>"add tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 236ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-10-09 14:28:23 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 206ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-10-09 14:35:01 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 471ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-09 14:35:02 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-09 14:35:02 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-10-09 14:35:02 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-10-09 14:35:02 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-10-09 14:35:02 -0400
