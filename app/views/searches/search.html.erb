@@ -14,8 +14,13 @@
         <%= venue["name"] %><br>
         <%= venue["location"]["address"] %><br>
         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+        <%= form_tag '/tips' do %>
+          <%= hidden_field_tag :tip %><%= submit_tag "Add Tip" %>
+        <% end %>
       </li>
     <% end %>
     </ul>
   <% end %>
 </div>
+
+<!-- 40a55d80f964a52020f31ee3 -->
