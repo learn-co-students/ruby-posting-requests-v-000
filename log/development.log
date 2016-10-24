@@ -1535,3 +1535,43 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-10-24 17:06:20 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 491ms (Views: 481.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-24 17:31:46 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 183ms (Views: 174.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-24 17:31:47 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-10-24 17:31:47 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-24 17:31:47 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-10-24 17:31:47 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-10-24 17:31:47 -0600
+
+
+Started GET "/search" for ::1 at 2016-10-24 17:31:50 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-10-24 17:31:56 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n9CtIdznbMih5pBtZ8rPojIEHUEBq4ZaAGSB2SNnIZp724q0b77h+wG1NPqc+D6M0Rtj8bIV+exI7T9P7jKtkQ==", "zipcode"=>"80017", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 338ms (Views: 15.8ms | ActiveRecord: 0.0ms)
