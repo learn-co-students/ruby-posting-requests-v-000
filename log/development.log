@@ -1535,3 +1535,68 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2016-11-08 12:56:23 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JI4EPNU5YKFA022SNJPJIEPQROFWYVWREMLJ22OGOW51WFA0&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-08 12:56:24 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JI4EPNU5YKFA022SNJPJIEPQROFWYVWREMLJ22OGOW51WFA0&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HQRWX13DZIPPH1Q1UA5APVM5FSGNUT0F1FHJLTAOF0GYBZ3M" for ::1 at 2016-11-08 12:56:27 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HQRWX13DZIPPH1Q1UA5APVM5FSGNUT0F1FHJLTAOF0GYBZ3M"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 128ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-08 12:56:28 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 728ms (Views: 726.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-08 13:04:50 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 298ms (Views: 284.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-08 13:04:55 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zrSDcC3pUJcNRC9SMonyBvmWZmHNSTUAN6e/eosQmRZeyHIsP/VY860vJch3oH0IzJuDwjiouvK0iPXR2Qo15Q==", "zipcode"=>"10018", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 276ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-08 13:05:30 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q3w0ae9KPKrsxiJAyCFjMbf4pVqw3EVSsHNu2NTripk7AMU1/VY0zkytKNqNCOw/gvVA+UU9yqAzXCRzhvEmag==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"More high end than a coffee shop, but excellent excellent", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 183ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-08 13:05:31 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 116ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-08 13:05:52 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 195ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-08 13:06:08 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 225ms (Views: 18.5ms | ActiveRecord: 0.0ms)
