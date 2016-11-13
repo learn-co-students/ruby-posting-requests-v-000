@@ -1535,3 +1535,41 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2016-11-13 12:36:29 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 395ms (Views: 386.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-13 12:47:20 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-13 12:47:24 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 954ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-13 12:47:35 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yQhtWuYo//BjqjizVbjo/7Y2e3b5xGffoSucD/KJ3R2Df4EWA8Zja8/Gtbs6NdOQrXf0LwmZdeXshtFFuItioA==", "zipcode"=>"80108", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 1095ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-13 12:47:43 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wU0g15s33FCp6x+UIbRkSSPO1Zor/YEe+t1P9N/u7aWLOsybftlAywWHkpxOOV8mOI9aw9ugkyS3cAK+lexSGA==", "venue_id"=>"500d72ace4b0ba42c3017ced", "tip"=>"hey look at this tip", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 941ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-13 12:47:44 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 785ms (Views: 10.3ms | ActiveRecord: 0.0ms)
