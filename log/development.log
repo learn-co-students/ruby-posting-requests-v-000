@@ -1535,3 +1535,41 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:49:11 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 360ms (Views: 352.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:49:12 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:59:52 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 184ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:59:54 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dHWdg4O4IwHXAvUW4dY/yeCLW4RhKzAkVIYQKqWH2ZJlH1Z3PYkQXSYUHFxXSuyMGiUL7acChZZpbwsEtBpWOA==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 532ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-16 16:00:07 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C8iMFLlK2gfWO7rzlLAVcr/b3GV4yrA7sTNNy0NmOb0aokfgB3vpWyctU7kiLMY3RXWMDL7jBYmM2lblUvu2Fw==", "venue_id"=>"433f2300f964a52050281fe3", "tip"=>"I love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 225ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-16 16:00:07 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 135ms (Views: 16.6ms | ActiveRecord: 0.0ms)
