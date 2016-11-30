@@ -1535,3 +1535,23 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-11-30 15:45:11 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=4SHTWMQQ2D5PDYGYBGVJJGZJC2VZUHRKXEMGTJWM5HAKDG05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FM43ACWGZ2EFU05Q5RKNDCK1HDYH2KK1YFMWGBROQXQMK14V" for ::1 at 2016-11-30 15:45:52 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FM43ACWGZ2EFU05Q5RKNDCK1HDYH2KK1YFMWGBROQXQMK14V"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 211ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-30 15:45:52 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 704ms (Views: 703.4ms | ActiveRecord: 0.0ms)
