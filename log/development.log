@@ -1535,3 +1535,29 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2016-12-07 15:27:51 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 964ms (Views: 947.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-07 15:28:00 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iN31nHlbxzfm2K178WzVRHFb/YxarMWgeMYr03akCSN8YcipSLiumcTrXQaUae998fN8uism8634FM6MR8wWVA==", "zipcode"=>"06413", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 423ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-07 15:28:07 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2F9seuZ7emi1BRhfX/AOA+tvYDTdyliSR/cHdpEX+Dks41FP15gTxpc26CI69TQ6a8fhAqxAbp/HJeIpoH/nTg==", "venue_id"=>"4ba61b58f964a520043439e3", "tip"=>"Great shop", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 192ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-07 15:28:07 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 188ms (Views: 42.2ms | ActiveRecord: 0.0ms)
