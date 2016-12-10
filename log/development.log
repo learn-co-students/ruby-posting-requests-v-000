@@ -1535,3 +1535,49 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-12-10 16:24:54 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=2WE1KS34DCKFPEBQEI0FJKJOZJXHLYYUOKH1UFZUUO4MHCFR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FT14DZ2EZSDPZBWVZZ2WI2M1ZCA2IE2A0FV0UBE10IS3V1EL" for ::1 at 2016-12-10 16:25:12 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FT14DZ2EZSDPZBWVZZ2WI2M1ZCA2IE2A0FV0UBE10IS3V1EL"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 776ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-10 16:25:13 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2248ms (Views: 2246.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-10 16:51:28 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 465ms (Views: 460.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-10 16:52:04 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X80mbMtGfu/ZUhO9EyeZBbj0GA2hn1CPuRQ4QIsrj4gxwDrRyAouplC2m+fdzstSngNp2AERvOwQ+MeFa8zEpg==", "zipcode"=>"23936", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 765ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-10 16:52:37 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXRRtZgQgrKgwGw2npT5VXsGq6XMISzRTTwWRvdZW+lneU0Im1zS+ykk5GxQfasCXfHacGyvwLLk0OmDF74Qxw==", "venue_id"=>"51239898e4b0272e5cd2b845", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 412ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-10 16:52:38 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 559ms (Views: 180.3ms | ActiveRecord: 0.0ms)
