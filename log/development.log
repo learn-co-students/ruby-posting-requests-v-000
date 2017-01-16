@@ -1535,3 +1535,579 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-15 19:55:51 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1564ms (Views: 1556.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-15 19:58:32 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-15 19:58:35 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wH8HKB1wkHtLrghi94CnN3Rdirl9eQUDrErvmPoablwGELlR+c+ynqKLHwPAdKjgSuaHaXksJpsdc6hKuYDf4g==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 329ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-15 20:23:39 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-15 20:23:44 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OsHauCjhcuJUkVizD3t6ypNYUB1FcRd7wC7tWE2XZUP8rmTBzF5QB720T9I4j3UdreNdzUEkNONxF6qKDg3U/Q==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 261ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:24:40 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"El2g//x7LiDjNaKs1+e6su5b+J82T77ffrLFH+vgvoHUMh6GGMQMxQoQtc3gE7Vl0OD1TzIanUfPi4LNqHoPPw==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"OK place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 112ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:24:40 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.5ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:25:29 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"El2g//x7LiDjNaKs1+e6su5b+J82T77ffrLFH+vgvoHUMh6GGMQMxQoQtc3gE7Vl0OD1TzIanUfPi4LNqHoPPw==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"OK place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 5231ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:25:35 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 0.0ms)
+
+RuntimeError (#<Faraday::Response:0x007ff61ab4d620 @on_complete_callbacks=[], @env=#<Faraday::Env @method=:get @body="{\"meta\":{\"code\":200,\"requestId\":\"587c210fdd57977ca30b1154\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{\"tips\":{\"count\":0,\"items\":[]}}}" @url=#<URI::HTTPS https://api.foursquare.com/v2/users/self/tips?oauth_token=G0NW1FQGLV2DAPDO5PT0HWVPFF2HOWSUV3BTRLIRNNHWJKSQ&v=20160201> @request=#<Faraday::RequestOptions (empty)> @request_headers={"User-Agent"=>"Faraday v0.9.2"} @ssl=#<Faraday::SSLOptions verify=true> @response=#<Faraday::Response:0x007ff61ab4d620 ...> @response_headers={"server"=>"nginx", "content-type"=>"application/json; charset=utf-8", "access-control-allow-origin"=>"*", "tracer-time"=>"11", "x-ratelimit-path"=>"/v2/users/X/tips", "x-ratelimit-limit"=>"500", "x-ratelimit-remaining"=>"498", "strict-transport-security"=>"max-age=31536000", "x-ex"=>"fastly_cdn", "content-length"=>"174", "accept-ranges"=>"bytes", "date"=>"Mon, 16 Jan 2017 01:25:35 GMT", "via"=>"1.1 varnish", "connection"=>"close", "x-served-by"=>"cache-jfk8126-JFK", "x-cache"=>"MISS", "x-cache-hits"=>"0", "vary"=>"Accept-Encoding,User-Agent,Accept-Language"} @status=200>>):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.3ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:26:10 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms)
+
+TypeError (exception class/object expected):
+  app/controllers/tips_controller.rb:8:in `raise'
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:26:20 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms)
+
+TypeError (exception class/object expected):
+  app/controllers/tips_controller.rb:8:in `raise'
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.6ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:26:22 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms)
+
+TypeError (exception class/object expected):
+  app/controllers/tips_controller.rb:8:in `raise'
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.8ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.8ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:26:26 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>200, "requestId"=>"587c21421ed21954acee4d08"}, "notifications"=>[{"type"=>"notificationTray", "item"=>{"unreadCount"=>0}}], "response"=>{"tips"=>{"count"=>0, "items"=>[]}}}):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-15 20:26:54 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"El2g//x7LiDjNaKs1+e6su5b+J82T77ffrLFH+vgvoHUMh6GGMQMxQoQtc3gE7Vl0OD1TzIanUfPi4LNqHoPPw==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 284ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:26:57 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nz+fyig6ePQnDIIBHfd3xdfITN7v0l6CVPD3z2QtyybxUCGzzIVaEc4plWAqA3gS6XNBDuuHfRrlybAdJ7d6mA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"OK place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 114ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:26:57 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>200, "requestId"=>"587c21619fb6b71b83cf56f8"}, "notifications"=>[{"type"=>"notificationTray", "item"=>{"unreadCount"=>0}}], "response"=>{"tips"=>{"count"=>0, "items"=>[]}}}):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.9ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:27:35 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nz+fyig6ePQnDIIBHfd3xdfITN7v0l6CVPD3z2QtyybxUCGzzIVaEc4plWAqA3gS6XNBDuuHfRrlybAdJ7d6mA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"OK place", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms)
+
+RuntimeError (#<Faraday::Response:0x007ff6101f8390 @on_complete_callbacks=[], @env=#<Faraday::Env @method=:post @body="{\"meta\":{\"code\":400,\"errorType\":\"param_error\",\"errorDetail\":\"Text must be at least 10 characters and less than 200.\",\"requestId\":\"587c2187351e3d34064bfc5a\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{}}" @url=#<URI::HTTPS https://api.foursquare.com/v2/tips/add?oauth_token=G0NW1FQGLV2DAPDO5PT0HWVPFF2HOWSUV3BTRLIRNNHWJKSQ&text=OK+place&v=20160201&venueId=3fd66200f964a5204ee41ee3> @request=#<Faraday::RequestOptions (empty)> @request_headers={"User-Agent"=>"Faraday v0.9.2", "Content-Length"=>"0"} @ssl=#<Faraday::SSLOptions verify=true> @response=#<Faraday::Response:0x007ff6101f8390 ...> @response_headers={"server"=>"nginx", "content-type"=>"application/json; charset=utf-8", "access-control-allow-origin"=>"*", "tracer-time"=>"15", "x-ratelimit-path"=>"/v2/tips/add", "x-ratelimit-limit"=>"500", "x-ratelimit-remaining"=>"496", "content-length"=>"242", "accept-ranges"=>"bytes", "date"=>"Mon, 16 Jan 2017 01:27:36 GMT", "via"=>"1.1 varnish", "connection"=>"close", "x-served-by"=>"cache-jfk8150-JFK", "x-cache"=>"MISS", "x-cache-hits"=>"0"} @status=400>>):
+  app/controllers/tips_controller.rb:19:in `create'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.3ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:28:04 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nz+fyig6ePQnDIIBHfd3xdfITN7v0l6CVPD3z2QtyybxUCGzzIVaEc4plWAqA3gS6XNBDuuHfRrlybAdJ7d6mA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"OK place", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms)
+
+RuntimeError ("{\"meta\":{\"code\":400,\"errorType\":\"param_error\",\"errorDetail\":\"Text must be at least 10 characters and less than 200.\",\"requestId\":\"587c21a4351e3d3405572094\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{}}"):
+  app/controllers/tips_controller.rb:19:in `create'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.6ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:28:33 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nz+fyig6ePQnDIIBHfd3xdfITN7v0l6CVPD3z2QtyybxUCGzzIVaEc4plWAqA3gS6XNBDuuHfRrlybAdJ7d6mA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Not a bad place at all", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 178ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:28:33 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-15 20:28:41 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-15 20:28:48 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z5EcoSZBWEUNpF/6mEKzOlzdIshWbQFXdfiD6xXu64qh/qLYwv56oOSBSJuvtrztYmYvGFI4Is/EwcQ5VnRaNA==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 311ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:28:56 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TYHhLf7EDzmhO8AmSPIpZVvMf5J7GGTs/V+PnN+HnJmL7l9UGnst3Ege10d/BiayZXdyQn9NR3RMZshOnB0tJw==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Not a bad place at all, loved it", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 196ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:28:56 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>200, "requestId"=>"587c21d8db04f54043e27b88"}, "notifications"=>[{"type"=>"notificationTray", "item"=>{"unreadCount"=>0}}], "response"=>{"tips"=>{"count"=>2, "items"=>[{"id"=>"587c21d88ae36367e2420c56", "createdAt"=>1484530136, "text"=>"Not a bad place at all, loved it", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21d88ae36367e2420c56", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}, {"id"=>"587c21c1375c4a373d5d6915", "createdAt"=>1484530113, "text"=>"Not a bad place at all", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21c1375c4a373d5d6915", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}]}}}):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.8ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.4ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:29:31 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"tips"=>{"count"=>2, "items"=>[{"id"=>"587c21d88ae36367e2420c56", "createdAt"=>1484530136, "text"=>"Not a bad place at all, loved it", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21d88ae36367e2420c56", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}, {"id"=>"587c21c1375c4a373d5d6915", "createdAt"=>1484530113, "text"=>"Not a bad place at all", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21c1375c4a373d5d6915", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}]}}):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.3ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:29:49 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms)
+
+RuntimeError (nil):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.1ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:30:37 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms)
+
+RuntimeError (nil):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.6ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:30:44 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:31:14 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:9:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-01-15 20:31:20 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TYHhLf7EDzmhO8AmSPIpZVvMf5J7GGTs/V+PnN+HnJmL7l9UGnst3Ege10d/BiayZXdyQn9NR3RMZshOnB0tJw==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Not a bad place at all, loved it", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 97ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:31:21 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:9:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.7ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:31:30 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"tips"=>{"count"=>2, "items"=>[{"id"=>"587c21d88ae36367e2420c56", "createdAt"=>1484530136, "text"=>"Not a bad place at all, loved it", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21d88ae36367e2420c56", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}, {"id"=>"587c21c1375c4a373d5d6915", "createdAt"=>1484530113, "text"=>"Not a bad place at all", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21c1375c4a373d5d6915", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}]}}):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.8ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.6ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:32:17 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 0.0ms)
+
+RuntimeError ([{"id"=>"587c21d88ae36367e2420c56", "createdAt"=>1484530136, "text"=>"Not a bad place at all, loved it", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21d88ae36367e2420c56", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}, {"id"=>"587c21c1375c4a373d5d6915", "createdAt"=>1484530113, "text"=>"Not a bad place at all", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21c1375c4a373d5d6915", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}]):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.6ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:32:28 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    3: <ul>
+    4: <% @results.each do |item| %>
+    5:   <li><strong>><%= item["venue"]["name"] %></strong><br>
+    6:     <%= item["tip"]["text"] %></li>
+    7: <% end %>
+    8: </ul>
+  app/views/tips/index.html.erb:6:in `block in _app_views_tips_index_html_erb___1344754581588625738_70347427943260'
+  app/views/tips/index.html.erb:4:in `each'
+  app/views/tips/index.html.erb:4:in `_app_views_tips_index_html_erb___1344754581588625738_70347427943260'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.7ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:32:56 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.0ms)
+
+RuntimeError ([{"id"=>"587c21d88ae36367e2420c56", "createdAt"=>1484530136, "text"=>"Not a bad place at all, loved it", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21d88ae36367e2420c56", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}, {"id"=>"587c21c1375c4a373d5d6915", "createdAt"=>1484530113, "text"=>"Not a bad place at all", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/587c21c1375c4a373d5d6915", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>52463, "usersCount"=>29068, "tipCount"=>416}, "url"=>"http://thegothamcitygroup.com", "price"=>{"tier"=>2, "message"=>"Moderate", "currency"=>"$"}, "hasMenu"=>true, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1493, "delivery"=>{"id"=>"26532", "url"=>"http://www.seamless.com/food-delivery/restaurant.26532.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", "provider"=>{"name"=>"seamless"}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"50d74bfce4b0e2533e971b45", "createdAt"=>1356286972, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/708039_E0PpmdXz5FCTbmud1R81rNk0LXt1fgUztP0uGxUdbSc.jpg", "width"=>720, "height"=>960, "user"=>{"id"=>"708039", "firstName"=>"Paul", "lastName"=>"Imperio", "gender"=>"male", "photo"=>{"prefix"=>"https://irs1.4sqi.net/img/user/", "suffix"=>"/NO3OLJ2JDVZ0GG3D.jpg"}}, "visibility"=>"public"}, {"id"=>"512a401ae4b01eb9383533ca", "createdAt"=>1361723418, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/45390_H2ipHFY6rFWT-ony5BnQcaZ0wFqovMs4DzhKYyAb4v4.jpg", "width"=>720, "height"=>720, "user"=>{"id"=>"45390", "firstName"=>"Marty", "lastName"=>"Madrid", "gender"=>"male", "photo"=>{"prefix"=>"https://irs2.4sqi.net/img/user/", "suffix"=>"/Y4QHFL5GHD4JBS2D.jpg"}}, "visibility"=>"public"}, {"id"=>"507dc2fde4b03d34a6298ac9", "createdAt"=>1350419197, "prefix"=>"https://irs2.4sqi.net/img/general/", "suffix"=>"/79295_rn4h0mHnGKDKUtEhvtJA4RmV7dNzGEXQSGqVaw-MhHQ.jpg", "width"=>540, "height"=>720, "user"=>{"id"=>"79295", "firstName"=>"Jeff", "lastName"=>"Pulver", "gender"=>"male", "photo"=>{"prefix"=>"https://irs0.4sqi.net/img/user/", "suffix"=>"/5NAL4WFQZAJZSCZN.jpg"}}, "visibility"=>"public"}]}]}, "storeId"=>""}}]):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/flatironschool/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-01-15 20:33:16 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 131ms (Views: 14.2ms | ActiveRecord: 0.0ms)
