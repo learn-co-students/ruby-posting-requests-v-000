@@ -1535,3 +1535,108 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2017-01-19 15:37:54 +0100
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 378ms (Views: 369.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-01-19 15:38:01 +0100
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a/bWIZy39ZqGOvJCOJUpn2uN7lUVoUm8w33rtzc4r2E/vrzpxYCDVFsFoCo9QVYct7KVicLdhHv4CBidP1RWqQ==", "zipcode"=>"10019", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 414ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-01-19 15:51:11 +0100
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a/bWIZy39ZqGOvJCOJUpn2uN7lUVoUm8w33rtzc4r2E/vrzpxYCDVFsFoCo9QVYct7KVicLdhHv4CBidP1RWqQ==", "zipcode"=>"10019", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 809ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-01-19 15:51:29 +0100
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CwZI44Pur+GPBnLSbS2jgfhCi+DgfEUrQbccrdpvPrtfTiIr2tnZL1I5ILpo+dwCJH3wPDcAiOx6wu+H0gPHcw==", "venue_id"=>"540f9a1c498e751683a6852f", "tip"=>"Awesome place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 300ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-01-19 15:51:29 +0100
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 251ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-01-19 15:51:50 +0100
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <h1>My Tips</h1>
+    2: <ul>
+    3: <% @results.each do |item| %>
+    4:   <li><strong>><%= item["venue"]["name"] %></strong><br>
+    5:     <%= item["tip"]["text"] %></li>
+    6: <% end %>
+    7: </ul>
+  app/views/tips/index.html.erb:4:in `[]'
+  app/views/tips/index.html.erb:4:in `block in _app_views_tips_index_html_erb__4507807631179019074_70343010525200'
+  app/views/tips/index.html.erb:3:in `each'
+  app/views/tips/index.html.erb:3:in `_app_views_tips_index_html_erb__4507807631179019074_70343010525200'
+
+
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.4ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.8ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (119.6ms)
+
+
+Started GET "/tips" for ::1 at 2017-01-19 15:51:57 +0100
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 314ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <h1>My Tips</h1>
+    2: <ul>
+    3: <% @results.each do |item| %>
+    4:   <li><strong><%= item["venue"]["name"] %></strong><br>
+    5:     <%= item["tip"]["text"] %></li>
+    6: <% end %>
+    7: </ul>
+  app/views/tips/index.html.erb:4:in `[]'
+  app/views/tips/index.html.erb:4:in `block in _app_views_tips_index_html_erb__4507807631179019074_70343067213100'
+  app/views/tips/index.html.erb:3:in `each'
+  app/views/tips/index.html.erb:3:in `_app_views_tips_index_html_erb__4507807631179019074_70343067213100'
+
+
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.5ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.2ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/brunoboehm/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.6ms)
+
+
+Started GET "/tips" for ::1 at 2017-01-19 15:52:13 +0100
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 269ms (Views: 15.6ms | ActiveRecord: 0.0ms)
