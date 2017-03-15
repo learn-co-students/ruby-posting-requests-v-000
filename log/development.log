@@ -1535,3 +1535,105 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2017-03-15 17:20:41 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=XIENCKFVWWHSA1KOPV11HQTKHQVXGJRZELMCZAMZLKRG0JPH&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=Y5DXDVQC315IFGDIUE2WL2I0DFCKNBMXKNYPHZB4A2UYU34K" for 127.0.0.1 at 2017-03-15 17:20:55 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"Y5DXDVQC315IFGDIUE2WL2I0DFCKNBMXKNYPHZB4A2UYU34K"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1545ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-15 17:20:57 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (33.0ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `sesseion' for #<#<Class:0x007fefbcaa2040>:0x007fefbcaaed40>
+Did you mean?  session):
+    1: <%= sesseion[:token] %>
+    2: <h1>Search for Coffee Shops Near Me</h1>
+    3: <%= form_tag '/search' do %>
+    4:   <%= label_tag :zipcode %>
+  app/views/searches/search.html.erb:1:in `_app_views_searches_search_html_erb__543978302947425333_23190180'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-15 17:21:14 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 301ms (Views: 300.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-15 17:21:14 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-03-15 17:21:14 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-03-15 17:21:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-03-15 17:21:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-03-15 17:21:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-15 17:37:10 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-15 17:37:15 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fR4zdFDQZpbc82m3hmhvYFhCJaaJuLsf+i2o40J1HdKFYIo4z1y9S1hGDCIRDf3N8iynrNIsTIex7ne06Ti8sg==", "zipcode"=>"77064", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 1673ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-03-15 17:37:24 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MR8ADDJzXE9EmQSSrgbHRB7wFD5sC1M1NNAIr2ot7aTJYblArf+HksAsYQc5Y1XptJ6WNDefpK1/E9f4wWBMxA==", "venue_id"=>"5331b7a0498ec968b0201858", "tip"=>"Nice", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 199ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-03-15 17:37:24 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1034ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-03-15 17:39:09 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MR8ADDJzXE9EmQSSrgbHRB7wFD5sC1M1NNAIr2ot7aTJYblArf+HksAsYQc5Y1XptJ6WNDefpK1/E9f4wWBMxA==", "venue_id"=>"5331b7a0498ec968b0201858", "tip"=>"This place serves coffee, yum!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1045ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-03-15 17:39:10 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3069ms (Views: 41.1ms | ActiveRecord: 0.0ms)
