@@ -1535,3 +1535,29 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2017-04-04 19:36:13 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 463ms (Views: 450.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-04-04 19:36:17 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RZpaZmMYQ2EYEfFxkNL6D/UjF+E6teOSLEy/gw1kxR2wRDTHzSbhtw0ayln/yNVNzSCo+BV5mUF1Y8zyHt0XQg==", "zipcode"=>"99301", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 504ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-04-04 19:42:22 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pNQDoe9ZSZOZMc/oEHr2R+aHBd/YLr0sphYy/bPMA0ZRCm0AQWfrRYw69MB/YNkF3oS6xvfix///OUGMoHXRGQ==", "venue_id"=>"4fa7fc23e4b017e939e4be07", "tip"=>"You have to try the Meatball & Sausage Piadina.  It is the best.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 466ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-04-04 19:42:23 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 410ms (Views: 19.2ms | ActiveRecord: 0.0ms)
