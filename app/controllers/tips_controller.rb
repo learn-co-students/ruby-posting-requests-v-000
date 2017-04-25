@@ -1,5 +1,5 @@
 class TipsController < ApplicationController
-
+  # just trying to add a change to get my submit working again
   def create
     resp = Faraday.post 'https://api.foursquare.com/v2/tips/add' do |req|
       req.params['oauth_token'] = session[:token]
