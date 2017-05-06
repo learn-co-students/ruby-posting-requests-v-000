@@ -1535,3 +1535,42 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2017-05-05 22:31:17 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=2NFS3PFQIU0OO2EJC24EV5MG2A1QC13XTJ1XLOY13LX3ZDNE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1IGRL5N3VZZWXN3ZHHRNIOOYIAW4U0EWNDEF2RSHQKFJNW3W" for ::1 at 2017-05-05 22:31:23 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1IGRL5N3VZZWXN3ZHHRNIOOYIAW4U0EWNDEF2RSHQKFJNW3W"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 215ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 22:31:23 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 812ms (Views: 810.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 23:01:52 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 82ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-05 23:01:58 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 60ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-05 23:02:07 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zy2Q7ownThFBQMajPLTTn6AG0tZ0IxR4C0LAQWwtpUOeU7ZbFCzR6+cTfOZ6j1kgkCAwD6AbIOQ+c8sylKUvwA==", "zipcode"=>"11065", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 192ms (Views: 34.3ms | ActiveRecord: 0.0ms)
