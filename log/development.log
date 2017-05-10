@@ -1535,3 +1535,41 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2017-05-10 13:33:34 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 493ms (Views: 480.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=XJ5ZKJ3MOK5L54FJU5YERHPGC4FL21TLIIKASR5HTA1QYBRE" for ::1 at 2017-05-10 13:48:02 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"XJ5ZKJ3MOK5L54FJU5YERHPGC4FL21TLIIKASR5HTA1QYBRE"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 250ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 13:48:03 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-10 13:55:17 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 86ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-10 13:55:25 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CfQtzxywYGZyexh99547Ea9JqAG7eb6fiGzes/6ZWQdg9mO5l2hgvjVbKkZ2J43UMnwSyLnhZqwsUf7zkbrNxQ==", "zipcode"=>"02130", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 405ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 13:55:28 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 205ms (Views: 28.6ms | ActiveRecord: 0.0ms)
