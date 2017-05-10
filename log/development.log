@@ -1535,3 +1535,308 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2017-05-10 15:29:38 +0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 544ms (Views: 530.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-10 15:51:54 +0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-10 15:52:03 +0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IVriU670v1Zi75p9cYm8zOQJqDktR9uAcUNKL1g0HtHjCXqdVjqGgp2j6HtVW1/njAi3pzarU7fs8ilcm5UqsQ==", "zipcode"=>"10005", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1485ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-05-10 15:52:14 +0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6h2LfvYkRUGXJnHtXQ/z3dCF0Fen3dSKdRGuw/wzR4goThOwDup8lWhqA+t53RD2uITPybwxXL3ooM2wP5Jz6A==", "venue_id"=>"524aeb0111d2ae4d1b1eea62", "tip"=>"let's check it out!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 1219ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `redirect_to_tips_path' for #<TipsController:0x007fe3c6ac4110>
+Did you mean?  redirect_to):
+  app/controllers/tips_controller.rb:9:in `create'
+
+
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (108.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (199.1ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:52:55 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 1016ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <ul>
+    2: <%@tips.each do |tip|%>
+    3: <li><%=tip['venue']['name']%></li>
+    4: <li><%=tip['text']['name']%></li>
+    5: <%end%>
+  app/views/tips/index.html.erb:2:in `_app_views_tips_index_html_erb__552189275369927268_70308174529980'
+  app/controllers/tips_controller.rb:19:in `index'
+
+
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.7ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (134.1ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:54:51 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 1286ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <ul>
+    2: <%@tips.each do |tip|%>
+    3: <li><%=tip['venue']['name']%></li>
+    4: <li><%=tip['text']['name']%></li>
+    5: <%end%>
+  app/views/tips/index.html.erb:2:in `_app_views_tips_index_html_erb__552189275369927268_70308174529980'
+  app/controllers/tips_controller.rb:19:in `index'
+
+
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.0ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.6ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (115.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-10 15:54:56 +0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-10 15:55:00 +0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y95nSLu8OeRxpSVuSCw7LzkpppcsRRwL1BuNOYmwR7ehjf+GQ3IAMI7pV2hs/tgEUSi5CTeplDxJqu5KShFz1w==", "zipcode"=>"203", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1042ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-05-10 15:55:08 +0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rK0pFfXxqHU/kKIAZvdfjzs8wJ5Jb/WKzkunmpRCxRhu/rHbDT+RocDc0AZCJbykUz3fAFKDfb1T+sTpV+PxeA==", "venue_id"=>"4fcd0439e4b02808058a5a17", "tip"=>"don't know about this place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1200ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:55:09 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 956ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <ul>
+    2: <%@tips.each do |tip|%>
+    3: <li><%=tip['venue']['name']%></li>
+    4: <li><%=tip['text']['name']%></li>
+    5: <%end%>
+  app/views/tips/index.html.erb:2:in `_app_views_tips_index_html_erb__552189275369927268_70308174529980'
+  app/controllers/tips_controller.rb:19:in `index'
+
+
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (119.8ms)
+
+
+Started GET "/search" for ::1 at 2017-05-10 15:56:02 +0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-10 15:56:05 +0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x6XDtoAg958xpd1br04m6eeC6RIGPw1lwvESUvAcAK4F9lt4eO7OS87pr12LnMXCj4P2jB3ThVJfQHEhM700zg==", "zipcode"=>"10023", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 939ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-05-10 15:56:13 +0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4qomyXoZt3wvsNoAMJjsJtBM5wLRSE4k8Ajj/FKhQeEg+b4HgteOqND8qAYUSg8NuE34nMqkxhNtuYCPkQB1gQ==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"maybe it's good", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1648ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:56:15 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 891ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <!-- <ul>
+    2: <%@tips.each do |tip|%>
+    3: <li><%=tip['venue']['name']%></li>
+    4: <li><%=tip['text']['name']%></li>
+    5: <%end%>
+  app/views/tips/index.html.erb:2:in `_app_views_tips_index_html_erb__552189275369927268_70308165697300'
+  app/controllers/tips_controller.rb:19:in `index'
+
+
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/feiranwang/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.1ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:56:53 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1160ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:56:57 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 963ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:57:20 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1045ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:57:59 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1314ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:58:13 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 887ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:58:22 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 867ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:59:00 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1099ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-10 15:59:06 +0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-10 15:59:08 +0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NQOq2bDMNWzyfhDNnUENvEP8PEbmybvbBBPj0XWdDa33UDIXSAIMuA0yYsu5k+6XK/0j2P0lM+yZooCitjw5zQ==", "zipcode"=>"1002", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 1369ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-05-10 15:59:14 +0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VITV4RqNfeREQ3n7Eho+ouD6OIwIvq7HHkEhVujttHaW100v4kNEMLsPC/02yN2JiPsnEhNSJvCD8EIlK0yAFg==", "venue_id"=>"504eb5a0e4b0225693ed392a", "tip"=>"yaya", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 877ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 15:59:15 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 977ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 16:00:08 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1446ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 16:00:31 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 882ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-10 16:00:37 +0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-10 16:00:41 +0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8yioaNLPlKmvSz3y4/tHkGTxjOsXJjo3Oyb6F2DAYLgxezCmKgGtfVAHT/THKaS7DPCTdQzKsgCml5lko2FU2A==", "zipcode"=>"10015", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 1026ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-05-10 16:00:51 +0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fap5SeBAG+nZOaQ8vzmGG/NZ6J5gaIroT73f/YHi1kO/+eGHGI4iPSZ11jqb62Uwm1j3AHuEAt/SDLyOQkPiIw==", "venue_id"=>"4b5c5b25f964a520362c29e3", "tip"=>"posted through api!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1012ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-10 16:00:52 +0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 942ms (Views: 18.3ms | ActiveRecord: 0.0ms)
