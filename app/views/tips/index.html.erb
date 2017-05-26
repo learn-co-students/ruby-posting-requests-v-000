@@ -1,1 +1,7 @@
-
+<h1>My Tips:</h1>
+<ul>
+<% @response.each do |r| %>
+  <li><strong><%= r['venue']['name'] %></strong>
+  <%= r['tip']['text'] %></li>
+<% end %>
+</ul>
