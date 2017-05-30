@@ -1857,3 +1857,76 @@ Processing by SearchesController#search as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-30 15:20:40 -0400
+
+LoadError (cannot load such file -- pry):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/searches_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.5ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.3ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.9ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Sean/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.5ms)
+
+
+Started GET "/" for ::1 at 2017-05-30 15:21:17 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 138336ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=AQ2SK2LGRAIKD22EJQH3VXGC0M2TP4WRXNYZMOCDBQTWPY4V" for ::1 at 2017-05-30 15:23:58 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQ2SK2LGRAIKD22EJQH3VXGC0M2TP4WRXNYZMOCDBQTWPY4V"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 500ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-30 15:23:58 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 536ms (Views: 535.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2017-05-30 15:23:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2017-05-30 15:23:59 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-05-30 15:23:59 -0400
+
+
+Started GET "/?client_id=XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F&scope=&state=7977477&redirect_uri=https%3A%2F%2Fwww.getpostman.com%2Foauth2%2Fcallback&response_type=code" for ::1 at 2017-05-30 16:32:18 -0400
+Processing by SearchesController#search as HTML
+  Parameters: {"client_id"=>"XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F", "scope"=>"", "state"=>"7977477", "redirect_uri"=>"https://www.getpostman.com/oauth2/callback", "response_type"=>"code"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?client_id=XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F&scope=&state=7977481&redirect_uri=https%3A%2F%2Fwww.getpostman.com%2Foauth2%2Fcallback&response_type=code" for ::1 at 2017-05-30 16:32:51 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"client_id"=>"XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F", "scope"=>"", "state"=>"7977481", "redirect_uri"=>"https://www.getpostman.com/oauth2/callback", "response_type"=>"code"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 192ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-30 16:32:51 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=XLHQJMYQJJFLFO1KBDIDS34NTTFIGIIYBCV2LC3IE2NGS43F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)

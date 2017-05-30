@@ -1,5 +1,4 @@
 <h1>Search for Coffee Shops Near Me</h1>
-<%= session[:token] %>
 <%= form_tag '/search' do %>
   <%= label_tag :zipcode %>
   <%= text_field_tag :zipcode %>
@@ -15,6 +14,10 @@
         <%= venue["name"] %><br>
         <%= venue["location"]["address"] %><br>
         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+        <%= form_tag '/tips' do %>
+          <%= hidden_field_tag :venue_id, venue["id"] %>
+          Add tip: <%= text_field_tag :tip %><%= submit_tag "Add Tip" %>
+        <% end %>
       </li>
     <% end %>
     </ul>
