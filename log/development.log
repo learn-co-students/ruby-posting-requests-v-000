@@ -1535,3 +1535,66 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+<<<<<<< HEAD
+Started GET "/" for ::1 at 2017-05-31 21:20:59 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+=======
+Started GET "/" for 71.212.68.58 at 2017-06-01 04:03:41 +0000
+Cannot render console from 71.212.68.58! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+>>>>>>> 71ad8883e543fb5ebec3e4babbcb141d1082d44f
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+<<<<<<< HEAD
+Started GET "/" for ::1 at 2017-05-31 21:26:31 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+=======
+Started GET "/" for 71.212.68.58 at 2017-06-01 04:14:03 +0000
+Cannot render console from 71.212.68.58! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+>>>>>>> 71ad8883e543fb5ebec3e4babbcb141d1082d44f
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-01 07:06:52 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-01 07:17:42 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-01 07:59:42 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-01 12:01:44 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-01 12:23:54 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=JR5KLHKKTWURSG5KP3L4J3MAFV3LXOKTJI0FXMQHMQPEYPIE" FOURSQUARE_SECRET="VQ5RMC4UTB3RACU5DGUAZT5LY1NCY1MWGYPSVUUSUK1X3OSR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
