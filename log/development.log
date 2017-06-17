@@ -1535,3 +1535,218 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2017-06-17 11:52:28 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 386ms (Views: 373.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 11:52:33 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HqHn2oVWAU58KKsUAKLP+e2S/9jp9RCG15450fVzKjEOjPdc/apDj/fdmCk/ymRAy0/jm/IfwBHZ9PFVNBwqMA==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 237ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 11:53:38 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w0kpNfMggIMbaJ/ZHmh9EYQcgzKecOGmSBHGMxjKsNbTZDmzi9zCQpCdrOQhANaoosGfcYWaMTFGew632aWw1w==", "zipcode"=>"02421", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 904ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 11:53:47 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QGwO9LMGDbQ6Mfr9HMXQ2aNfFcOSjyE96puUAUeF0cNQQR5yy/pPdbHEycAjrXtghYIJgIll8ark8VyFhurRwg==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 253ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth" for ::1 at 2017-06-17 11:59:21 -0400
+Processing by SessionsController#create as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-17 11:59:21 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=ZWPSFEBC5W0MQP5PMQSYL22TYXA24MW0WGQJPUL01BIJXQAY&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VB51LNWGBLJMBCUX1TQSNFBBGZVHHZP4FQBFCLH4HPKIPH2D" for ::1 at 2017-06-17 11:59:21 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VB51LNWGBLJMBCUX1TQSNFBBGZVHHZP4FQBFCLH4HPKIPH2D"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 117ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-17 11:59:21 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2017-06-17 12:01:55 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 596ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:07:26 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1+ROI0WmaW1D2j8Z9JJGvIPieYj6SKlvKion+RK8hh3HyV6lPVorrMgvDCTL+u0FpT9ly+GiefgkQO9909OGHA==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 752ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:07:36 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:07:38 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:07:40 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:24:32 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lPbmmx5e7mcHTZlTLfxdPBd+I9kxTsQBV2O+Wvy0P6SE2/YdZqKspoy4qm4SlPaFMaM/miqkFJZZCXbePds/pQ==", "zipcode"=>"oston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 178ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:24:47 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMoVYSxL93fw9A6p6mLBAbz5ToGo2XyWTmJkz1IZjBso5wXnVLe1tnsBPZTVCmq4miRSwrMzrAFACKxLk3aMGg==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 701ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:24:54 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UmTictFQvRtty7QbOCC4961TPvfTzV+nV+kC9SbiflFCSfL0qaz/2uY+hyYHSBNOi44itMgnjzBZg8px541+UA==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 252ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:25:02 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xueVqgcF2nSyGkK8oUxe86aYKkx1XUNfoxmmMtVzITfWyoUsf/mYtTnvcYGeJPVKgEU2D263k8itc262FBwhNg==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 340ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:25:13 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:25:16 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tY3EmFkr9Nb7Yg3jW0YcACBWDAkXtl1foYLFL1cvecKloNQeIde2F3CXPt5kLre5BosQSgxcjciv6A2rlkB5ww==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 270ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:39:46 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Daniel/Development/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting ')'
+venue["location"]["address"] "\n");@output_buffer.safe_appen
+                              ^):
+  app/views/searches/search.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.1ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (64.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.2ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:40:12 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Daniel/Development/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting ')'
+venue["location"]["address"] "#{\n}");@output_buffer.safe_ap
+                              ^):
+  app/views/searches/search.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.6ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.9ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Daniel/.rvm/gems/ruby-2.4.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.3ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:40:24 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-06-17 12:46:21 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:46:24 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HZezsLY8nkTw4m+z1CyihBQf68f5yPIcv5pSLPMxWNwNuqM2zsDchXsXXI7rRAk9MsL3hOIiIoux8JqoMl5Y3Q==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 277ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:46:37 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bWNVze7wOPSWi+/hXAWaIiGgSLkZKY91zM9hynPCjDNmJ3RT0eCIlmvHIK6GL3RrludYf+OdqrZWfUD6KAKMQ==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 597ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:46:51 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yGnAxuDrp48c3Jh5rLJoefJfIWkd0Ak7IHVTUJ+gXVnYRNBAmBflTpcpq0ST2sPA1II9KgY62awuH5vUXs9dWA==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 773ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 12:50:07 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K+/nG30ifSqt1Q+RBjsElX1T96MlSyIYOuXiEX6WdQE7wvedBd4/6yYgPKw5U68sW47r4D6h8o80jyqVv/l1AA==", "zipcode"=>"02421", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 920ms (Views: 20.8ms | ActiveRecord: 0.0ms)
