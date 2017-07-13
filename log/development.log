@@ -1535,3 +1535,110 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-13 12:26:41 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 592ms (Views: 582.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-07-13 12:42:23 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 210ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-07-13 12:42:27 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"25zmXaPd9QgWRu8P8VfWZa3m663Rgnanv3xdwJbMT6U3F5BVDt96ZGviUg1x0J5Zz9gTHVaCSrEeRAHcm+UK1Q==", "zipcode"=>"90201", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 1199ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-07-13 12:43:13 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AXxiQ42HaPdmmvCRVAYKRqpKLWx7g0DVha78WkRrV6rt9xRLIIXnmxs+TZPUgUJ6yHTV3PyDfMMklqBGSUIS2g==", "venue_id"=>"5112c984e4b0e9e9a6433b5e", "tip"=>"Mexican hot chocolate <3", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 166ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-07-13 12:43:13 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:18:in `index'
+
+
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.2ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/zenia/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.8ms)
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:43:21 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:43:24 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:43:31 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:43:43 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:44:06 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:44:11 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:44:32 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:44:34 -0700
+
+
+Started PUT "/__web_console/repl_sessions/1eb38e89f56f5d9a9c3d5049a5b40137" for 127.0.0.1 at 2017-07-13 12:45:01 -0700
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-07-13 12:45:26 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 225ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-07-13 12:45:35 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-07-13 12:45:39 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j4VdM9iGYCYWKGsYs04+hfoZVyAO8DSXOdnTowzHdMtjDis7dYTvSmuM1hozyXa5mCevkInwCIGY4Y+/Ae4xuw==", "zipcode"=>"90201", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 1122ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-07-13 12:45:48 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oP/S93d05V2hr2evAOCrp4B7ksqOWk/CEGA+so2DK8xMdKT/2nZqMdwL2q2AZ+Ob4kVqeglac9SxWGKugKpuvA==", "venue_id"=>"5112c984e4b0e9e9a6433b5e", "tip"=>"Mex", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 148ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-07-13 12:45:48 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 221ms (Views: 35.8ms | ActiveRecord: 0.0ms)
