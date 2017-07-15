@@ -1535,3 +1535,232 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2017-07-14 19:58:54 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=YV30J24Z2K5FW0OC3EXHK5SQZWQBC0R4DIZ3VEWXXNKXKH2Q&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VHGUQTJ2Y04QKFIJ1JVDUQBEBSMNKJN5XXJASATGYAWPVQ0W" for ::1 at 2017-07-14 19:58:55 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VHGUQTJ2Y04QKFIJ1JVDUQBEBSMNKJN5XXJASATGYAWPVQ0W"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 604ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-07-14 19:58:56 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 516ms (Views: 515.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-07-14 20:19:20 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-07-14 20:19:24 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1NqLyXO748BlMriPYMphmXnAkUAnmqYBD+5RkleWKQNUmLeVFSVncnq3aGnti4A5+DdxjgbLT9Y5XX/lKnVr4Q==", "zipcode"=>"98122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 1582ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-07-14 20:19:41 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oVYbHWiHCfa8qfwyzMRG7m8xffyZwp/bQ13lRDUaKJ0hFCdBDhmNRKMsLNRBhadO7sadMriTdgx17sszSPlqfw==", "venue_id"=>"4b40ba0bf964a52064ba25e3", "tip"=>"Try the muffins", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1342ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-07-14 20:19:42 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 2431ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `tip' for #<Hash:0x007ff4b4e5a550>
+Did you mean?  tap
+               zip):
+    3:   <% @results.each do |item| %>
+    4:     <li>
+    5:       <strong><%= item["venue"]["name"] %></strong><br>
+    6:       <%= item.tip.text %>
+    7:     </li>
+    8:   <% end %>
+    9: </ul>
+  app/views/tips/index.html.erb:6:in `block in _app_views_tips_index_html_erb___952555758859765907_70344491898440'
+  app/views/tips/index.html.erb:3:in `each'
+  app/views/tips/index.html.erb:3:in `_app_views_tips_index_html_erb___952555758859765907_70344491898440'
+
+
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.6ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.9ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (76.6ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (155.6ms)
+
+
+Started GET "/tips" for ::1 at 2017-07-14 20:20:02 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 318ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-07-14 20:20:08 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 365ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-07-14 20:20:12 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-07-14 20:20:15 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hcEDzj69Gk/Irm/qdaYQVzGBlHlKlIe2AklwsnYPXt8Fgz+SWCOe/dcrvwz45/H3sHZ0t2vFbmE0+l7FC+wcPQ==", "zipcode"=>"98122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 483ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-07-14 20:20:26 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FVD4/+IG5ZcfJT3OQlFVgjHtuY5sUI9qQFPjwAhpFSqVEsSjhJhhJQCg7SjPELQisBpZQE0BZr124M23dYpXyA==", "venue_id"=>"4b40ba0bf964a52064ba25e3", "tip"=>"Very good!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 404ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-07-14 20:20:27 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 508ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-07-14 20:21:26 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-07-14 20:21:28 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A+eeRGM+umu78gzb6nwyN01sNiouEOMkgLkh4cA98YCDpaIYBaA+2aR33D1nPdOXzJvW5A9BCvO2Cg+Wvd6zYg==", "zipcode"=>"98122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 455ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-07-14 20:21:34 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fxuqIOTDvi5rGmGL04MqHWg48E8d1q1X0/9HK/nBNZv/WZZ8gl06nHSfsW1ewsu96c8QgTyHRIDlTGlchCJ3eQ==", "venue_id"=>"50ca02c3245f2d4aa8c2c05e", "tip"=>"Caramel cream", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 288ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-07-14 20:21:35 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 371ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `pry' for #<Binding:0x007ff4b81f24a8>
+Did you mean?  try):
+     6:       <%= item["tip"]["text"] %>
+     7:     </li>
+     8:   <% end %>
+     9:   <%= binding.pry %>
+    10: </ul>
+  app/views/tips/index.html.erb:9:in `_app_views_tips_index_html_erb___952555758859765907_70344522122740'
+
+
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.0ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.8ms)
+
+
+Started PUT "/__web_console/repl_sessions/e759c2bf743a35921049169cd631e311" for ::1 at 2017-07-14 20:21:44 -0700
+
+
+Started PUT "/__web_console/repl_sessions/e759c2bf743a35921049169cd631e311" for ::1 at 2017-07-14 20:21:52 -0700
+
+
+Started POST "/tips" for ::1 at 2017-07-14 20:22:45 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fxuqIOTDvi5rGmGL04MqHWg48E8d1q1X0/9HK/nBNZv/WZZ8gl06nHSfsW1ewsu96c8QgTyHRIDlTGlchCJ3eQ==", "venue_id"=>"5133fdeee4b08f94a78f215b", "tip"=>"Caramel cream!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 397ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007ff4b4f7ce10>
+Did you mean?  try):
+  app/controllers/tips_controller.rb:9:in `create'
+
+
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.2ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/silvermac/.rvm/gems/ruby-2.3.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.9ms)
+
+
+Started PUT "/__web_console/repl_sessions/c39aad4bb3d5809db372a037d345fa0e" for ::1 at 2017-07-14 20:22:51 -0700
+
+
+Started PUT "/__web_console/repl_sessions/c39aad4bb3d5809db372a037d345fa0e" for ::1 at 2017-07-14 20:23:18 -0700
+
+
+Started PUT "/__web_console/repl_sessions/c39aad4bb3d5809db372a037d345fa0e" for ::1 at 2017-07-14 20:23:22 -0700
+
+
+Started PUT "/__web_console/repl_sessions/c39aad4bb3d5809db372a037d345fa0e" for ::1 at 2017-07-14 20:23:25 -0700
+
+
+Started GET "/search" for ::1 at 2017-07-14 20:28:27 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-07-14 20:28:30 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ea8eqLM+GGMfNtBUf8T4ky7WqHbI3beuqTFK7X0g5mSR7SL01aCc0QCzALLyhRkzryFIuOmMXnmfgmSaAMOkhg==", "zipcode"=>"98122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 3533ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-07-14 20:28:49 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"smgafPmZuA73n214WBBSx2wP/2EG5b+TKiJKOB+T6/UyKiYgnwc8vOgavZ7VUbNn7fgfrye0VkQckWRPYnCpFw==", "venue_id"=>"57e95a82498e0a3995a43e90", "tip"=>"caramel creme crepe", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 890ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-07-14 20:28:50 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 425ms (Views: 16.0ms | ActiveRecord: 0.0ms)
