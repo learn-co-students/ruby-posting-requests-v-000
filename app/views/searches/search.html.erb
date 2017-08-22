@@ -1,21 +1,23 @@
 <h1>Search for Coffee Shops Near Me</h1>
+<%= session[:token] %>
 <%= form_tag '/search' do %>
-  <%= label_tag :zipcode %>
-  <%= text_field_tag :zipcode %>
-  <%= submit_tag "Search!" %>
+<%= label_tag :zipcode %>
+<%= text_field_tag :zipcode %>
+<%= submit_tag "Search!" %>
 <% end %>
 <div>
   <% if @error %>
-    <p><%= @error %></p>
+  <p><%= @error %></p>
   <% elsif @venues %>
-    <ul>
+  <ul>
     <% @venues.each do |venue| %>
-      <li>
-        <%= venue["name"] %><br>
-        <%= venue["location"]["address"] %><br>
-        Checkins: <%= venue["stats"]["checkinsCount"] %><br>
-      </li>
+    <li>
+      <%= venue["name"] %><br>
+      <%= venue["location"]["address"] %><br>
+      Checkins:
+      <%= venue["stats"]["checkinsCount"] %><br>
+    </li>
     <% end %>
-    </ul>
+  </ul>
   <% end %>
 </div>
