@@ -1535,3 +1535,44 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2017-09-13 14:15:56 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=J1EPTCQ3V0FCSYKPJHIEMCRQGBDUWCEXBILUXB0BSCGRH1GW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-13 14:16:17 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=J1EPTCQ3V0FCSYKPJHIEMCRQGBDUWCEXBILUXB0BSCGRH1GW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-13 14:16:59 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=J1EPTCQ3V0FCSYKPJHIEMCRQGBDUWCEXBILUXB0BSCGRH1GW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-13 14:17:33 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=J1EPTCQ3V0FCSYKPJHIEMCRQGBDUWCEXBILUXB0BSCGRH1GW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A4000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4XUO4UFZOQT03BLZGIZQDZ1HQIG0A54WPI54BJTYGFXADCOW" for 127.0.0.1 at 2017-09-13 14:17:36 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4XUO4UFZOQT03BLZGIZQDZ1HQIG0A54WPI54BJTYGFXADCOW"}
+Redirected to http://localhost:4000/
+Completed 302 Found in 495ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-13 14:17:37 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 456ms (Views: 455.3ms | ActiveRecord: 0.0ms)
