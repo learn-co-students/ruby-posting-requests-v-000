@@ -1535,3 +1535,60 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2017-10-30 17:55:40 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 447ms (Views: 434.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-10-30 18:05:41 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/sukey/code/labs/ruby-posting-requests-v-000/app/views/searches/search.html.erb:27: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/sukey/code/labs/ruby-posting-requests-v-000/app/views/searches/search.html.erb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/searches/search.html.erb:27: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/searches/search.html.erb:29: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.1ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.8ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/sukey/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.2ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-10-30 18:06:38 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 175ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-10-30 18:06:41 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A5cQGhPABXrXa5QWooijr5wnc7mDEZ6TfUqHqG/LiMPP4tw8T7wSiwA5XFANq40rHa9lt6WoBcXNnkmJPBTNoA==", "zipcode"=>"22901", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 390ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-10-30 18:07:43 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQVAjWwtacjWyhsgUN2lhSF0RqLIbUY42qKaRbpyPDuxcIyrMFF+OQGY02b//osBoPxQrO7U3W5qdlRk6a15WA==", "venue_id"=>"4b2a4b87f964a52002a724e3", "tip"=>"good for kids", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 319ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-10-30 18:07:43 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 119ms (Views: 18.0ms | ActiveRecord: 0.0ms)
