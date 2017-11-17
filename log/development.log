@@ -1535,3 +1535,41 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2017-11-17 01:27:59 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 534ms (Views: 522.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-17 01:28:35 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-17 01:38:37 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 256ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-11-17 01:38:43 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KaK4M4mXsPp65uI/wgKuSXyS1hbdmV72LnY77+QU6ihy5VekCnt1ef4Q39RO3sYqTUDloiIqRTTVM9sj8J6v3Q==", "zipcode"=>"11237", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 343ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-11-17 01:40:36 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RVmMU7WrAiHKUmVF3Hstb1Vs9GQDPDTZ0CYyIpBPp4ceHmPENkfHok6kWK5Qp0UMZL7H0PyPLxsrY9LuhMXicg==", "venue_id"=>"433f2300f964a52050281fe3", "tip"=>"Pretty decent place.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 371ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-11-17 01:40:36 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 277ms (Views: 33.6ms | ActiveRecord: 0.0ms)
