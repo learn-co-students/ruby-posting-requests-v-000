@@ -5,6 +5,8 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+FOURSQUARE_CLIENT_ID = ENV['FOURSQUARE_CLIENT_ID']
+FOURSQUARE_SECRET = ENV['FOURSQUARE_SECRET']
 
 module ApisAndFaradayReading
   class Application < Rails::Application
