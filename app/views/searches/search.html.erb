@@ -14,8 +14,25 @@
         <%= venue["name"] %><br>
         <%= venue["location"]["address"] %><br>
         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+        <%= form_tag '/tips' do %>
+        <%= hidden_field_tag :venue_id, venue["id"]%> <%=submit_tag "Add Tip" %>
+        <%end%>
       </li>
     <% end %>
     </ul>
   <% end %>
 </div>
+
+<!-- response object:
+  "response": {
+    "tip": {
+      "id": "56c223e1498e82b67c98f548",
+      "createdAt": 1455563745,
+      "text": "Love this place!",
+      "type": "user",
+      "canonicalUrl": "https://foursquare.com/item/56c223e1498e82b67c98f548",
+      "likes": {
+        "count": 0,
+        "groups": []
+      },
+// ... -->
