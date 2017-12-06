@@ -1535,3 +1535,99 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2017-12-05 21:37:12 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=KZIFVHL4T3P02F1CEZ0S3X5ALCF5RFVTRCJ11UJYMRRPSTVL&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WLSMGNGMW4G4VYMKXIJPFTU0DVV2YKRA5KVM2INZHOUCMAZL" for ::1 at 2017-12-05 21:37:44 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WLSMGNGMW4G4VYMKXIJPFTU0DVV2YKRA5KVM2INZHOUCMAZL"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 6225ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-05 21:37:50 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 383ms (Views: 382.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-05 22:00:39 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/leonardoguzman/Desktop/Coding/Flatiron/RailsAndJavascript/ruby-posting-requests-v-000/app/views/searches/search.html.erb:28: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/leonardoguzman/Desktop/Coding/Flatiron/RailsAndJavascript/ruby-posting-requests-v-000/app/views/searches/search.html.erb:30: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/searches/search.html.erb:28: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/searches/search.html.erb:30: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.5ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.2ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.8ms)
+
+
+Started GET "/search" for ::1 at 2017-12-05 22:00:45 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/leonardoguzman/Desktop/Coding/Flatiron/RailsAndJavascript/ruby-posting-requests-v-000/app/views/searches/search.html.erb:28: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/leonardoguzman/Desktop/Coding/Flatiron/RailsAndJavascript/ruby-posting-requests-v-000/app/views/searches/search.html.erb:30: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/searches/search.html.erb:28: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/searches/search.html.erb:30: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.0ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.8ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/leonardoguzman/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.4ms)
+
+
+Started GET "/search" for ::1 at 2017-12-05 22:01:54 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-05 22:02:00 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kgEqAQWRMO8jZ9igIpolYnLKjtxIHbO+BS69AoA+z9zrZzsctKJ8DY48GoJBg2VLUJd1N8CTzF2TAxp2Ah63Og==", "zipcode"=>"60160", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 6299ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-12-05 22:02:21 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"60f4+TuShUFgsiiPh9HHu7WJV6AWGpZjHBxIsGqD6aWSIenkiqHJo83p6q3kyIeSl9SsS56U6YCKMe/E6KORQw==", "venue_id"=>"4b135fdbf964a520b49623e3", "tip"=>"Great Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 413ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-12-05 22:02:21 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 162ms (Views: 15.1ms | ActiveRecord: 0.0ms)
