@@ -1535,3 +1535,37 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 19:34:18 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=PRJHK51NT2VZQHRPASFQLYOHHNZ4RWV0OUE04PYJMGPU03UR&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=W4YY1A3R33SPWNHTORE3IGXMYIHCY5SG3L2BY4IKLH23O5L3" for 127.0.0.1 at 2017-12-06 19:34:21 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"W4YY1A3R33SPWNHTORE3IGXMYIHCY5SG3L2BY4IKLH23O5L3"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 255ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 19:34:21 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 453ms (Views: 452.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-12-06 19:52:47 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aaqZh4R5f6ywTWscwtY47/NaCG4Ba5CfLTR3MUPuCVbk8ruMT8T+FiKNucqennLVOVxf8RTXe/Of3opBbAISoQ==", "zipcode"=>"Sugar", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 589ms (Views: 246.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-12-06 19:53:11 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ulv8DFXog4nvuKFsWpwg6x9qu2aWtic7+OspC409goffA94HnlUCM314c7oG1GrR1Wzs+YMKzFdKAdR7otGZcA==", "zipcode"=>"56123", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 194ms (Views: 9.9ms | ActiveRecord: 0.0ms)
