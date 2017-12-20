@@ -5,5 +5,7 @@ Rails.application.routes.draw do
 
   get '/auth', to: 'sessions#create'
   get '/friends', to: 'searches#friends'
+  get '/token', to: 'searches#token'
 
+  resources :tips, only: [:index, :create]
 end
