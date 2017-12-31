@@ -1535,3 +1535,36 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2017-12-31 01:08:25 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 694ms (Views: 678.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-31 01:12:20 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BekzF5jmK20GBzk3Xw5JJhq0Wv7jAa/djN3BNQ2MbXTxQHcukCJZnLZuYxorl1NmX7oFYYNZ8n7/9ukOcLst8g==", "zipcode"=>"95136", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 602ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-31 02:12:17 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BekzF5jmK20GBzk3Xw5JJhq0Wv7jAa/djN3BNQ2MbXTxQHcukCJZnLZuYxorl1NmX7oFYYNZ8n7/9ukOcLst8g==", "zipcode"=>"95136", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 430ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-12-31 02:12:34 -0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XDX4AY7MTuS5DIwb0AccNkiAhsjIZoc5EbTzzObS+0KonLw4hgg8FQll1jakngZ2DY7ZV6g+2ppin9v3m+W7xA==", "venue_id"=>"4b33d736f964a520562025e3", "tip"=>"i like this place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 496ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-12-31 02:12:34 -0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 249ms (Views: 58.2ms | ActiveRecord: 0.0ms)
