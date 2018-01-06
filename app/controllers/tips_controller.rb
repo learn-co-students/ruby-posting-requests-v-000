@@ -1,2 +1,25 @@
+require 'pry'
+
 class TipsController < ApplicationController
+    def index
+        resp = Faraday.get("https://api.foursquare.com/v2/lists/self/tips") do |req|
+          req.params['oauth_token'] = session[:token]
+          req.params['v'] = '20180501'
+        end
+        @results = JSON.parse(resp.body)["response"]["list"]["listItems"]["items"]
+        #binding.pry
+    end
+    
+    def create
+        resp = Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
+          req.params['oauth_token'] = session[:token]
+          req.params['v'] = '20180501'
+          req.params['venueId'] = params[:venue_id]
+          req.params['text'] = params[:tip]
+        end
+     
+        redirect_to tips_path
+    end
+
+    
 end
