@@ -1535,3 +1535,116 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/search" for ::1 at 2018-01-11 19:15:16 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Admin/.rvm/gems/ruby-2.4.3/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-11 19:20:10 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Admin/.rvm/gems/ruby-2.4.3/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-11 19:21:39 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-11 19:23:07 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-11 19:25:07 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-11 19:29:29 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Admin/.rvm/gems/ruby-2.4.3/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-01-11 19:29:33 -0500
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=24cb8e40f88ca5453446&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-11 21:21:26 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Admin/.rvm/gems/ruby-2.4.3/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 446ms (Views: 430.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-11 21:22:15 -0500
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-11 21:29:23 -0500
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-11 21:39:55 -0500
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-11 21:40:03 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dz8RuBv0+sfPOqE9HfL9tHOj6fO7mLco/FCS4CreDoUsMrb9005zgsVrDkidmRVOLLKvG3LXNUMQ/eq0d1xEOw==", "zipcode"=>"11358", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 2118ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-11 21:40:05 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VsHdhND7epflVXC4SUDu6jHTNMsr1crz90YYCDn/jG0NzHrBGEHz0u8E383JKwYQbsJyI+KaSJgb62BcZH3G0w==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 93ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-11 21:40:07 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nt3YA/u+FCUrKsKPtMKgsGXwo84F1T95rHqPeiklbBZt0H9GMwSdYCF7bfo0qUhKOuHlJsyavRJA1/cudKcmqA==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 143ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-11 21:40:12 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ScWNnLeeu+/8IvLu/DllVxBqqBcrqb/QWZYsI2yyzXASyCrZfyQyqvZzXZt8Uo2tT3vu/+LmPbu1O1R3MTCHzg==", "zipcode"=>"11358", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 312ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
