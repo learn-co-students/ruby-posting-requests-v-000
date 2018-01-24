@@ -1535,3 +1535,48 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-01-24 15:36:55 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 435ms (Views: 424.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-24 15:36:57 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-24 16:00:03 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-24 16:00:08 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J5j14kKI78czIz/i1xpsRXI7I0B3P4L2xWykDeySkI8nXKHk88Rvyt02FKSsWEXqVz1VxcjKTfcUQJ1NvJg2LA==", "zipcode"=>"27518", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 835ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-24 16:00:17 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MN+UWf0tghBvC5jMrOJUWOjzDzSY2AAP8IpzJoDN8owwG8BfTGECHYEes4rXoH33zfV5sSctzw4hpkpm0MdULw==", "zipcode"=>"cary", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 320ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-24 16:00:39 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fTVfQsaa8GnbUgiK+n/7AkUcwoXaOdfdCm3Sug2WePV98QtEd9ZwZDVHI8yBPdKtYBq0AGXMGNzbQev6XZzeVg==", "zipcode"=>"cary, nc", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 392ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-24 16:01:07 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 661ms (Views: 21.4ms | ActiveRecord: 0.0ms)
