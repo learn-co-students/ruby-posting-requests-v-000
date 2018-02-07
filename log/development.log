@@ -1535,3 +1535,305 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2016-03-15 11:44:49 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 851ms (Views: 826.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-15 11:44:50 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-15 11:44:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-15 11:44:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-15 11:44:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 11:44:50 -0400
+
+
+Started GET "/" for ::1 at 2016-03-15 12:03:15 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 508ms (Views: 468.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-15 12:03:16 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-15 12:03:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-15 12:03:16 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 12:03:16 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-15 12:03:16 -0400
+
+
+Started GET "/tips" for ::1 at 2016-03-15 12:03:20 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 376ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:7:in `index'
+
+
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (214.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (345.1ms)
+
+
+Started PUT "/__web_console/repl_sessions/c7e25b1ef39d82b82ff8c6982d862ec5" for ::1 at 2016-03-15 12:03:38 -0400
+
+
+Started PUT "/__web_console/repl_sessions/c7e25b1ef39d82b82ff8c6982d862ec5" for ::1 at 2016-03-15 12:03:55 -0400
+
+
+Started PUT "/__web_console/repl_sessions/c7e25b1ef39d82b82ff8c6982d862ec5" for ::1 at 2016-03-15 12:04:15 -0400
+
+
+Started GET "/search" for ::1 at 2016-03-15 12:04:34 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:04:44 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fsqj1aVMQAenNJJnh9GxzWEROeb6JV2rKt8vDRiPatQb1QFgQcmQkC7VzxZAZjIKsGZWmq4MhCR1+DgFilKUfg==", "zipcode"=>"pizza", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 358ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:04:51 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VA4VksCaUWBUSYV5m9jNRQvIbWInt5JQvOlBKuB8A2YxEbcnJB+B992o2Ahcb06C2r8CHnOeS9/jzlYicqH9zA==", "zipcode"=>"donut", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 445ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:04:56 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MhUviXVEd6wQIeGKZ7HHgj1S7HPQFACyaO0iIQ6NG7FXCo08kcGnO5nAvPugBkRF7CWDD4Q92T03yjUpnFDlGw==", "zipcode"=>"Cake", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 319ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:05:03 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"viqynDOcSA3KA4IoWPT5Ycb5tauvUSG2Zxjo7KotPRjbNRAp1xmYmkPi31mfQ3qmF47a1/t4+Dk4P//kOPDDsg==", "zipcode"=>"Pizza", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 232ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:05:06 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zeAPS+9kltRWdHKY4zLEEz3cKPSep4VrIEDQfsKiMeao/63+C+FGQ9+VL+kkhUfU7KtHiMqOXOR/Z8d2UH/PTA==", "zipcode"=>"bar", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 284ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:05:11 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ezi3B5wTM5L1wWATYMN8NxtU7ts+SwtWDAE6b8H9rF12JxWyeJbjBXwgPWKndP/wyiOBp2pi0tlTJi1nUyBS9w==", "zipcode"=>"11377", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 388ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-03-15 12:05:19 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"owtLnZGjri2MZiASYNMTIZuqzdQbiCSr3HWtIJBxSUHGFOkodSZ+ugWHfWOnZJDmSt2iqE+h/SSDUrooAqy36w==", "zipcode"=>"11377", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 399ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-03-15 12:05:40 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V+1jD3y/0LuN9i22L8a23tHgDmuw3OI+5SAm11jV4Voy8sG6mDoALAQXcMfocTUZAJdhF+T1O7G6BzHfyggf8A==", "venue_id"=>"4a3534d2f964a520989c1fe3", "tip"=>"This place is alright!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 302ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `to' for #<TipsController:0x007fb4dcce2618>):
+  app/controllers/tips_controller.rb:17:in `create'
+
+
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (108.0ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.0ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (191.1ms)
+
+
+Started POST "/tips" for ::1 at 2016-03-15 12:05:58 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V+1jD3y/0LuN9i22L8a23tHgDmuw3OI+5SAm11jV4Voy8sG6mDoALAQXcMfocTUZAJdhF+T1O7G6BzHfyggf8A==", "venue_id"=>"4a3534d2f964a520989c1fe3", "tip"=>"This place is alright!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 206ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-03-15 12:05:58 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:7:in `index'
+
+
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (189.1ms)
+
+
+Started GET "/tips" for ::1 at 2016-03-15 12:07:28 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 304ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:7:in `index'
+
+
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.9ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.9ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (189.3ms)
+
+
+Started GET "/tips" for ::1 at 2016-03-15 12:07:33 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 241ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:7:in `index'
+
+
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.9ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.5ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/JustinThomas/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (199.8ms)
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:07:39 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:08:01 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:08:23 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:08:52 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:08:54 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:09:00 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:09:33 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:09:38 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:09:46 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:09:52 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:10:22 -0400
+
+
+Started PUT "/__web_console/repl_sessions/0eddcedd6e807b7365203e81a87ba181" for ::1 at 2016-03-15 12:10:37 -0400
+
+
+Started GET "/tips" for ::1 at 2016-03-15 12:10:55 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 317ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-15 12:10:55 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-15 12:10:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-15 12:10:55 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 12:10:55 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-15 12:10:55 -0400
+
+
+Started GET "/tips" for ::1 at 2016-03-15 12:11:13 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 269ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-15 12:11:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-15 12:11:14 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 12:11:14 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-15 12:11:14 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-15 12:11:14 -0400
