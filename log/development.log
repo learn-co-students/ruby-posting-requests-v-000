@@ -1535,3 +1535,98 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-03-27 19:36:56 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LQ2DAMFOZMJPH41LJIUY05UWO3UM5LZJTYTEOF0M3VKAMSZ3&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=2Y52KM5AG5MJ4IKGVYW3OHSDUKFKESYKUMJVCTUET210TV0M" for ::1 at 2016-03-27 19:37:00 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"2Y52KM5AG5MJ4IKGVYW3OHSDUKFKESYKUMJVCTUET210TV0M"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 405ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-27 19:37:01 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 596ms (Views: 594.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-27 19:37:01 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-27 19:37:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-27 19:37:01 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-27 19:37:01 -0600
+
+
+Started GET "/search" for ::1 at 2016-03-27 19:49:19 -0600
+
+SyntaxError (/Users/tuckerbohman/Development/code/ruby-posting-requests-v-000/config/routes.rb:8: syntax error, unexpected [, expecting keyword_do or '{' or '('
+  resources :tips, only [:index, :create]
+                         ^):
+  config/routes.rb:8: syntax error, unexpected [, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.3ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (90.0ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tuckerbohman/.rvm/gems/ruby-2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (196.1ms)
+
+
+Started GET "/search" for ::1 at 2016-03-27 19:50:10 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-27 19:50:10 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-27 19:50:10 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-27 19:50:10 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-27 19:50:11 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-27 19:50:11 -0600
+
+
+Started POST "/search" for ::1 at 2016-03-27 19:50:15 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hoeoMZP1fMA7mM2REMEo0waODg4NV+mQ2CT0BJS/Tf3FS3bFcCly1EhnFBVFxo0sHlMSr19HXL43oOAyaTNgOQ==", "zipcode"=>"84074", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 519ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-03-27 19:50:38 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9P5nVwkilUa0rw7coc4dRboKXJb/qoyvtvbgAmboigO3Mrmj6v6bUsdQ11j0ybi6otdAN626OYFZcvQ0m2Snxw==", "venue_id"=>"5167076ce4b06ad089f1d25a", "tip"=>"Great Place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 316ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-03-27 19:50:38 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 314ms (Views: 18.3ms | ActiveRecord: 0.0ms)
