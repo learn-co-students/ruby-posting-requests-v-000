@@ -1535,3 +1535,35 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2016-06-14 08:07:33 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 319ms (Views: 313.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2016-06-14 08:17:53 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 146ms (Views: 139.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2016-06-14 08:17:57 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+dtcHmiuPojoukMvVwCMwzC3xyAsVbIud5KCmlVyHrqEDhlbRDc6dONt1k/5j27cdVepDOIARR3dPiYM8tfDOA==", "zipcode"=>"07424", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 1165ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-06-14 08:18:13 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RTGLKfF1UjOnmxTEnnK/mj6EIKnkmOPbPynzA0QK5lA45M5s3exWz6xMgaQw/V2Fe2ROhSrNFOiVhVeV46870g==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"\"Good coffee!\"", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1394ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-06-14 08:18:15 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1335ms (Views: 21.3ms | ActiveRecord: 0.0ms)
