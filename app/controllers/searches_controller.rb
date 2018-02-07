@@ -23,6 +23,7 @@ class SearchesController < ApplicationController
     end
 
     body = JSON.parse(@resp.body)
+    #raise body.inspect
 
     if @resp.success?
       @venues = body["response"]["venues"]
