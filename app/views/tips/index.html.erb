@@ -1,1 +1,9 @@
-
+<h2>Your Tips:</h2>
+<ul>
+  <% @response.each do |item| %>
+    <li>
+      <strong><%= item['venue']['name'] %></strong><br>
+      <%= item['tip']['text'] %><br><br>
+    </li>
+  <% end %>
+</ul>
