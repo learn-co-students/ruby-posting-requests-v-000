@@ -8,7 +8,7 @@ private
 
   def authenticate_user
     client_id = ENV['FOURSQUARE_CLIENT_ID']
-    redirect_uri = CGI.escape("http://localhost:3000/auth")
+    redirect_uri = CGI.escape("https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/auth")
     foursquare_url = "https://foursquare.com/oauth2/authenticate?client_id=#{client_id}&response_type=code&redirect_uri=#{redirect_uri}"
     redirect_to foursquare_url unless logged_in?
   end
