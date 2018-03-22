@@ -1535,3 +1535,96 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2018-03-21 18:20:15 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 614ms (Views: 602.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-21 18:24:43 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-21 18:24:51 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kSKPJH27YxMtDpiS74Nzi8HGlZuKxF6lJftMureUJe/UO44/yn1pcLgdRJZ8A+dzg1S/okBTY3n/cqAFlpqo1w==", "zipcode"=>"92116", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 567ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-21 18:37:54 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-21 18:37:57 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OJD8fiEVGLsMAmM3MacWYb0RDzxyKCKkyo4AvnWVell9if1lltMS2JkRvzOiJ4KZ/4MlBbi/H3gQB+wBVJv3YQ==", "zipcode"=>"92116", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 534ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-21 18:38:17 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"092OWGSgGhsQ3sxeFUXG5rzPIJh3Lu6s48fiRY4BzuOWxI9D02YQeIXNEFqGxVIe/l0Kob2503A5Tg76rw9D2w==", "venue_id"=>"50761d0a582f84e5cfda54bf", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 285ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-21 18:38:17 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:10:in `index'
+
+
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.8ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (451.8ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kayla/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (924.6ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-21 18:39:02 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 426ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-21 18:39:12 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-21 18:39:16 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r2V0V5MiMr98+Bq/tEqAgyrZ20zIJFFxarABocDV17fqfHVMJOQ43OnrxrsnyhR7aEvxdQKzbK2wOe0e4dtajw==", "zipcode"=>"92116", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 480ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-21 18:39:30 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m3bwauiJKfNkpzrU6AAxB/3PcxFI6qJggmkVdz0453neb/FxX08jkPG05tB7gKX/v11ZKIJ9n7xY4PnIHDZqQQ==", "venue_id"=>"50761d0a582f84e5cfda54bf", "tip"=>"The cold brew here is the best!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 668ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-21 18:39:31 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 300ms (Views: 37.7ms | ActiveRecord: 0.0ms)
