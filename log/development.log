@@ -1535,3 +1535,54 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2018-03-25 16:32:20 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 454ms (Views: 439.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-25 16:39:17 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-25 16:39:20 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S0q0ZyjftTRGzg/LY0HWPd1ttf+9TJ9FlbG0G5y/TYzShnWKXOD1dctKUILjW0yps9J4CYAUzMSiAdzDTaemWA==", "zipcode"=>"60625", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 371ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-25 16:39:48 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XrWRoEMisMhlx/N4wDfa1D+B70ZLHpaN1DF/p6MnkMjHeVBNNx3wiehDrDFALUBAUT4isHZGxQzjgRd/cj97HA==", "venue_id"=>"52c7221c498e2304bb955d48", "tip"=>"Flavorful coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 377ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-25 16:39:48 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 184ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-25 16:40:12 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 236ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-25 16:48:17 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-25 16:48:20 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"saoze9SYErHm5VgptQOWmdUCwV1CY3ghArsdMv1OgUgoZvKWoKdS8GthB2A1GQwNu70Mq387K6A1C3XqLFZqnA==", "zipcode"=>"60625", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 310ms (Views: 62.5ms | ActiveRecord: 0.0ms)
