@@ -1535,3 +1535,77 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/auth?code=1SH55QIX0HYN4THHZMSNIITOFHBGFFPEJBCVLR4JZT4EZPQC" for 127.0.0.1 at 2018-04-03 20:25:48 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1SH55QIX0HYN4THHZMSNIITOFHBGFFPEJBCVLR4JZT4EZPQC"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 197ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 20:25:49 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=25HAQM4UDY4JFELTRJS34C4NQEUB2KGLLSZ53QCYOCSBPKSP&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 20:25:55 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=25HAQM4UDY4JFELTRJS34C4NQEUB2KGLLSZ53QCYOCSBPKSP&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-04-03 20:26:01 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=25HAQM4UDY4JFELTRJS34C4NQEUB2KGLLSZ53QCYOCSBPKSP&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=P4LRPDX03QYATWJ3MSGQFZYR2NCOUQSATOKXFCNMWLIXVEG4" for 127.0.0.1 at 2018-04-03 20:26:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"P4LRPDX03QYATWJ3MSGQFZYR2NCOUQSATOKXFCNMWLIXVEG4"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 149ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 20:26:09 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 520ms (Views: 519.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2018-04-03 20:26:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2018-04-03 20:26:10 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2018-04-03 20:26:17 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f7yPZ7BAILAIi+kh8StYx/bX2hAkgIXewXg+Sn5iOANTJDTWskwiOb+TAy8c3hj2adX9fj0oUGeLCQYymBuU5g==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 302ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-04-03 20:34:00 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"44kJhLORbUph/AhtPMjPHpGT9kPU1ba8nPQ6DQvl7mDPEbI1sZ1vw9bk4mPRPY8vDpHRLc19YwXWhQJ17ZxChQ==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 266ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-04-03 20:34:13 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-04-03 20:34:28 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+/Yp8C+ccuQqB6aG1WnfETzYmCiTKkWzl+Ki+QXIZXPXbpJBLZBwbZ0fTIg4nJ8go9q/RoqCkArdk5qB47HJlg==", "zipcode"=>"14605", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 355ms (Views: 27.6ms | ActiveRecord: 0.0ms)
