@@ -4,7 +4,7 @@
   <% @results.each do |response| %>
   <li>
     Venue: <%= response["venue"]["name"] %>
-    <%= response["tip"]["text"] %>
+    My tip: <%= response["tip"]["text"] %>
   </li>
   <% end %>
 </ul>
