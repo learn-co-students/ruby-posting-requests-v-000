@@ -17,8 +17,8 @@ class TipsController < ApplicationController
       req.params['v'] = '20180201'
     end
   end
-  parse_results = JSON.parse(resp.body)
-  @results = parse_results['response']['listItems']['items']
+  parsed_results = JSON.parse(resp.body)
+  @results = parsed_results['response']['listItems']['items']
 
   render 'index'
 end
