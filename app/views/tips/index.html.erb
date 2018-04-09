@@ -1,1 +1,10 @@
 
+<h1>My tips</h1>
+<ul>
+  <% @results.each do |response| %>
+  <li>
+    Venue: <%= response["venue"]["name"] %>
+    <%= response["tip"]["text"] %>
+  </li>
+  <% end %>
+</ul>
