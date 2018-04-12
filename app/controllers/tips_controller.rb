@@ -18,5 +18,5 @@ class TipsController < ApplicationController
     end
     @results = JSON.parse(resp.body)["response"]["list"]["listItems"]["items"]
   end     
-
+# comments
 end
