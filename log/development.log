@@ -1535,3 +1535,29 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-04-16 12:30:09 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 871ms (Views: 825.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-16 12:30:22 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d7+w9rYf4oxgn7Med9Mig5LhSq0xj9o6v39AxLMvaQz4ZKsog0sdqU/c/8TxyP2inlMv3YAZvlMi1cUUoVHtFw==", "zipcode"=>"11223", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 1374ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-04-16 12:30:59 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5V4/qAVdlKTWMjFPxQitBplj86Lvz/nRRaVsKfmznrsTmMglUGJd7wbhB+5D/2VFtfqvjopW47YvBBgtZhKYQ==", "venue_id"=>"524aeb0111d2ae4d1b1eea62", "tip"=>"great pastries and decor!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 438ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-16 12:31:00 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 823ms (Views: 631.7ms | ActiveRecord: 0.0ms)
