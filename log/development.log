@@ -1535,3 +1535,37 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-04-19 14:11:23 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 341ms (Views: 333.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-19 14:11:29 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bCk4LeeBR2w3g69gLnUcOBV/IZ2hP+2DQViOG2/FZoR7DVuWckdh9qy1iyuTgBWSvFLsuNaL0KhjQ6d0gwmopg==", "zipcode"=>"94598", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 511ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-19 14:12:32 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bCk4LeeBR2w3g69gLnUcOBV/IZ2hP+2DQViOG2/FZoR7DVuWckdh9qy1iyuTgBWSvFLsuNaL0KhjQ6d0gwmopg==", "zipcode"=>"94598", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 387ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-19 14:13:10 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bCk4LeeBR2w3g69gLnUcOBV/IZ2hP+2DQViOG2/FZoR7DVuWckdh9qy1iyuTgBWSvFLsuNaL0KhjQ6d0gwmopg==", "zipcode"=>"94598", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 303ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-19 14:17:43 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bCk4LeeBR2w3g69gLnUcOBV/IZ2hP+2DQViOG2/FZoR7DVuWckdh9qy1iyuTgBWSvFLsuNaL0KhjQ6d0gwmopg==", "zipcode"=>"94598", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 440ms (Views: 26.1ms | ActiveRecord: 0.0ms)
