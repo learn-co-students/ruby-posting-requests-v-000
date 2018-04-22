@@ -1535,3 +1535,100 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2018-04-22 11:36:28 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=H4Z4GG1RW1U5ZRC25PNEPOO5W20NAKYU1HTGZP2103PCQLAF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=R3HFIEN5VYHGBGGVZEFCFJQEEBZCPJ1DOISTU4IBHGY115VL" for ::1 at 2018-04-22 11:36:32 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"R3HFIEN5VYHGBGGVZEFCFJQEEBZCPJ1DOISTU4IBHGY115VL"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 319ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-04-22 11:36:32 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 523ms (Views: 522.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-04-22 11:50:21 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-22 11:50:25 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mzNjrelCLDA8OEIku+lM5B3lgyJmp0mJxKHynG+dF9myQ7o65Esf6rZ6m76vPJUiW/DDqdyXyVDfxKWhMtn3bQ==", "zipcode"=>"11216", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 1402ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-04-22 11:50:31 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d/Jt2MWis1lcGFcB0gdaOL9bB2qbvmt7TIcUenpLT3legrRPyKuAg9ZajpvG0oP++U5H4SGO66JX4kNHJw+vzQ==", "venue_id"=>"56f07966498e18f9b8ec1522", "tip"=>"ah", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 101ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-22 11:50:31 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 167ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-22 11:50:51 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 201ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-22 11:50:56 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 141ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-04-22 11:51:01 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d/Jt2MWis1lcGFcB0gdaOL9bB2qbvmt7TIcUenpLT3legrRPyKuAg9ZajpvG0oP++U5H4SGO66JX4kNHJw+vzQ==", "venue_id"=>"56f07966498e18f9b8ec1522", "tip"=>"ah", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 350ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-22 11:51:01 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 155ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-04-22 11:51:31 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-22 11:51:39 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B07LzPpar2WadPXVsZVRyGgFUPj5m79FEE1LrfYSppMuPhJb91OcvxA2LE+lQIgOLhAQc0OrP5wLKByQq1ZGJw==", "zipcode"=>"07039", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 435ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-04-22 11:51:54 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7RPQ6zrD8NyjfSAWs5K3jhUNw6z4yH5sIrx4MNYHuxfEYwl8N8rDBik/+YynR25IUxiDJ0L4/rU52S8Ni0Nbow==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"i like chicken nuggets", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 320ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-22 11:51:54 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 158ms (Views: 25.5ms | ActiveRecord: 0.0ms)
