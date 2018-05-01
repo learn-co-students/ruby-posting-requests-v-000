@@ -1535,3 +1535,69 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 63.119.220.66 at 2018-05-01 16:42:13 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=E5ZOP2NLF4LPH2N0H54LDT5CCWJAC5M4IISMGCUE32TNHKXK&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 63.119.220.66 at 2018-05-01 16:42:50 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=E5ZOP2NLF4LPH2N0H54LDT5CCWJAC5M4IISMGCUE32TNHKXK&response_type=code&redirect_uri=http%3A%2F%2F159.89.225.105%3A42976%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JFGTWIRESJH5CZRTQLX51GGNAKRREYCLHWNPBCDVR4QFGDTZ" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JFGTWIRESJH5CZRTQLX51GGNAKRREYCLHWNPBCDVR4QFGDTZ"}
+Redirected to http://159.89.225.105:42976/
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 517ms (Views: 515.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 63.119.220.66 at 2018-05-01 16:42:51 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.119.220.66 at 2018-05-01 16:51:38 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 261ms (Views: 249.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 63.119.220.66 at 2018-05-01 16:51:42 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g7eyRzfMoUilLNEZhc3vPlVTZNp9RFthfJRrlU8ItLXgihqr2DbfrceAPDw1DFRbl3e+KraSTDb5MHeCZLrs9w==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 329ms (Views: 21.5ms | ActiveRecord: 0.0ms)
