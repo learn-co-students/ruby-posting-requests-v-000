@@ -1535,3 +1535,71 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-03 10:04:16 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LDWV0QZ13RZWDZRDSC5DZQA4DSTSOP5WFVV25WTKVWI4SF0P&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=XITGCMS2L4UXM1DOQ33JC14G41GSBQGELMEJJEPHVPMN5X1D" for 127.0.0.1 at 2018-05-03 10:04:16 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"XITGCMS2L4UXM1DOQ33JC14G41GSBQGELMEJJEPHVPMN5X1D"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 121ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-03 10:04:17 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 325ms (Views: 324.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2018-05-03 10:04:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-03 10:30:49 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-03 10:30:57 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-05-03 10:31:07 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-05-03 10:31:14 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M9gOjw8HR+hk9C2ANOwQcczsKVixu0APGUDepX4iYmc2TJyQ/3E+vvP1ZmS3wCm7i6UWNOZVzm06aMopP+D6xQ==", "zipcode"=>"15201", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 238ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-05-03 10:32:01 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M9gOjw8HR+hk9C2ANOwQcczsKVixu0APGUDepX4iYmc2TJyQ/3E+vvP1ZmS3wCm7i6UWNOZVzm06aMopP+D6xQ==", "zipcode"=>"15201", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 225ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2018-05-03 10:32:23 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bAkD6eBqay4FVv9/8uIulHzjcseHkcKWkeiCxvP9oxtpnZH2EBwSeJJXtJtxzhdeO6pNq9B/TPSywJZKsj87uQ==", "venue_id"=>"525958a6498ea5b295e8cb97", "tip"=>"Nice place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 679ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2018-05-03 10:32:23 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 135ms (Views: 15.9ms | ActiveRecord: 0.0ms)
