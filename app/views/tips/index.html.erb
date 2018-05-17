@@ -1,1 +1,13 @@
-
+<div>
+  <% if @error %>
+    <p><%= @error %></p>
+  <% elsif @tips %>
+    <ul>
+    <% @tips.each do |tip| %>
+      <li>
+        <strong><%= tip["venue"]["name"] %></strong> - <%= tip["tip"]["text"] %><br>
+      </li>
+    <% end %>
+    </ul>
+  <% end %>
+</div>
