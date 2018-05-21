@@ -1535,3 +1535,109 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-05-21 10:18:02 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=B42YWNXNAW4CHNHAMGMPHU5IGRSMKNR1GHKZAYIHRST2F0TY&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=UCJWPDA1BXOZB3AEVUFS3CB2Q2NNUJHCDSCMGH3ZGBUFBBCE" for ::1 at 2018-05-21 10:18:08 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"UCJWPDA1BXOZB3AEVUFS3CB2Q2NNUJHCDSCMGH3ZGBUFBBCE"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 287ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:18:08 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 853ms (Views: 852.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:39:40 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:39:45 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 56ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:39:48 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:40:42 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 288ms (Views: 274.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:40:49 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:40:59 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-21 10:41:09 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-05-21 10:41:14 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HgbMN1i4LX32kBzHl7POjCrL2hHYcn/YjfsumuJ3jfSa2Nav1j4fLidQ88UK+b8KEtr8HPOWRZoWxEBHI/3MgQ==", "zipcode"=>"08226", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 446ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-05-21 10:41:43 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3BbeQKgcUBbLVHqV1trnHGOaUBM89f4y4g6zUdG0WuZYyMTYJppiRRqUlZdLkJaaW4t2HhcRxHB5Md2MED4bkw==", "venue_id"=>"4df8fd27e4cd2129701bdc56", "tip"=>"Really helpful staff", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 397ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-05-21 10:41:43 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: 
+    2: <h1>My Tips</h1>
+    3:   <ul>
+    4:     <% @results.each do |item| %>
+    5:     <li><strong>><%= item["venue"]["name"] %></strong><br>
+    6:       <%= item["tip"]["text"] %></li>
+    7:     <% end %>
+  app/views/tips/index.html.erb:4:in `_app_views_tips_index_html_erb___2362707524477064621_70103996414200'
+
+
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.8ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.7ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jenniferdobak/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (147.9ms)
