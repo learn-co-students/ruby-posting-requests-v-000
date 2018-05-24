@@ -1,1 +1,9 @@
-
+<h1>My Tips</h1>
+<ul>
+<% if @results %>
+  <% @results.each do |item| %>
+    <li><strong><%= item["venue"]["name"] %></strong><br>
+      <%= item["tip"]["text"] %></li>
+  <% end %>
+  </ul>
+<% end %>
