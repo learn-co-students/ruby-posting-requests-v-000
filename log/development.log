@@ -1535,3 +1535,149 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-06-14 19:16:17 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=KHCSIEKAIJ2ASUCSB2GRPJ1ZRRGZVEVFE3FKOIDRJRDONRP2&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5QT4LKYOA5U14LPIRFXNSJEQVGPY2COPXRKFFI3Q0T0KDK3D" for ::1 at 2018-06-14 19:16:21 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5QT4LKYOA5U14LPIRFXNSJEQVGPY2COPXRKFFI3Q0T0KDK3D"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 141ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-06-14 19:16:21 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+<h1>Search for Coffee Shops Near Me</h1>
+ ^
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:3: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+<h1>Search for Coffee Shops Near Me</h1>
+              ^
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:4: unknown regexp options - arch
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:4: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+<%= form_tag '/search' do @output_buffer.safe_append='
+                      ^
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:19: unknown regexp option - l
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:23: unknown regexp options - dv
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:24: unterminated string meets end of file
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/searches/search.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+  app/views/searches/search.html.erb:3: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+  app/views/searches/search.html.erb:4: unknown regexp options - arch
+  app/views/searches/search.html.erb:4: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/views/searches/search.html.erb:19: unknown regexp option - l
+  app/views/searches/search.html.erb:23: unknown regexp options - dv
+  app/views/searches/search.html.erb:24: unterminated string meets end of file
+  app/views/searches/search.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.9ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.1ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (187.6ms)
+
+
+Started GET "/search" for ::1 at 2018-06-14 19:16:40 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+<h1>Search for Coffee Shops Near Me</h1>
+ ^
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:3: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+<h1>Search for Coffee Shops Near Me</h1>
+              ^
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:4: unknown regexp options - arch
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:4: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+<%= form_tag '/search' do @output_buffer.safe_append='
+                      ^
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:19: unknown regexp option - l
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:23: unknown regexp options - dv
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:24: unterminated string meets end of file
+/Users/kristenpeck/code/ruby-posting-requests-v-000/app/views/searches/search.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/searches/search.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+  app/views/searches/search.html.erb:3: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+  app/views/searches/search.html.erb:4: unknown regexp options - arch
+  app/views/searches/search.html.erb:4: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/views/searches/search.html.erb:19: unknown regexp option - l
+  app/views/searches/search.html.erb:23: unknown regexp options - dv
+  app/views/searches/search.html.erb:24: unterminated string meets end of file
+  app/views/searches/search.html.erb:24: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.6ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (157.4ms)
+
+
+Started GET "/search" for ::1 at 2018-06-14 19:16:50 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (23.7ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `sesssion' for #<#<Class:0x007fec0ebbd3f0>:0x007fec13a46120>
+Did you mean?  session):
+    1: <%= sesssion[:token] %>
+    2: 
+    3: <h1>Search for Coffee Shops Near Me</h1>
+    4: <%= form_tag '/search' do %>
+  app/views/searches/search.html.erb:1:in `_app_views_searches_search_html_erb___2998723223799433569_70325959272280'
+
+
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (83.1ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kristenpeck/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (185.5ms)
+
+
+Started GET "/search" for ::1 at 2018-06-14 19:16:59 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 416ms (Views: 415.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-06-14 19:28:02 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-06-14 19:28:06 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 158ms (Views: 16.3ms | ActiveRecord: 0.0ms)
