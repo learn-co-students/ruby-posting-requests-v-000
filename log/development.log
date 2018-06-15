@@ -1535,3 +1535,62 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2018-06-15 19:26:21 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-06-15 19:28:10 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-06-15 19:31:45 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=ZZ2VG5GLVOKVWMJCWJ2SXQOW5PPLWRLMVRARWZYR0DA4V45X&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=P1KHRQKZAWDH2PN3BVPVWD5U3HRJJ0KV45OXHH3IEZQVOFCV" for ::1 at 2018-06-15 19:31:52 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"P1KHRQKZAWDH2PN3BVPVWD5U3HRJJ0KV45OXHH3IEZQVOFCV"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 198ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-06-15 19:31:52 +0100
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 490ms (Views: 489.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-06-15 19:31:53 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-06-15 19:31:53 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-06-15 19:31:53 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-06-15 19:31:53 +0100
+
+
+Started GET "/search" for ::1 at 2018-06-15 19:36:20 +0100
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-15 19:36:35 +0100
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BwY/gshC3jDI+Jsy0GRWk4Jg4nHvcZQxW9Vk9WJeMjE0VB/gr9cXQX8LhKzlwKOAkCLCl42L/yO5EYpidM7wUA==", "zipcode"=>"10100", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 274ms (Views: 39.6ms | ActiveRecord: 0.0ms)
