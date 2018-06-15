@@ -2,7 +2,7 @@
 <%= form_tag '/search' do %>
   <%= label_tag :zipcode %>
   <%= text_field_tag :zipcode %>
-  <%= submit_tag "Search!" %>
+  <%= submit_tag 'Search!' %>
 <% end %>
 <div>
   <% if @error %>
@@ -11,9 +11,13 @@
     <ul>
     <% @venues.each do |venue| %>
       <li>
-        <%= venue["name"] %><br>
-        <%= venue["location"]["address"] %><br>
-        Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+        <%= venue['name'] %><br>
+        <%= venue['location']['address'] %><br>
+        Checkins: <%= venue['stats']['checkinsCount'] %><br>
+        <%= form_tag '/tips' do %>
+          <%= hidden_field_tag :venue_id, venue['id'] %>
+          Add tip: <%= text_field_tag :tip %><%= submit_tag 'Add Tip' %>
+        <% end %>
       </li>
     <% end %>
     </ul>
