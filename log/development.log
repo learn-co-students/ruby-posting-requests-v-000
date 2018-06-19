@@ -1535,3 +1535,104 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-06-19 14:11:02 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1023ms (Views: 967.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-06-19 14:11:06 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-06-19 14:21:44 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 318ms (Views: 303.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-19 14:22:11 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HiqBePpiH7rwzIcnlfMjtyX054v3C7sNNeNHhpImoyGdjYK293wtCwu9FSe8uHpIKrFYut4Vd8hssJqolLFuwQ==", "zipcode"=>"common room", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 678ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-06-19 14:58:24 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 560ms (Views: 533.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-19 14:58:40 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ehlMiblMtJkOdTqFB6rpiWZ264zYkj1O6TFPuClpiCD5vk9HtFKGKPUEqIUu4bB2aTNUvfGM8YuwYpKWL/5FwA==", "zipcode"=>"coffee shops", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 941ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-19 14:58:49 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JjwScfERkD3HtJQohvjj1Vji+S3N3rzqQTK64Nz6xIelmxG//A+ijDzFBiivs7oqV6dGHOTAcC8YYWfO2m0JZw==", "zipcode"=>"92626", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 327ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-19 14:59:16 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y/PmEKonJ3gXFKNl6POh72zVZv0NzsFlh7sYVz7wQRLgVOXepzkVyexlMWXBuPgQY5DZzCTQDaDe6MV5OGeM8g==", "zipcode"=>"92663", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 358ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-19 15:00:01 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aHFB/mBjGl4blhKjlO0u7rrTud9xEqYt9FQnipf2PVjr1kIwbX0o7+DngKO9pncRtZYG7lgMauitB/qkkWHwuA==", "zipcode"=>"97204", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 479ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-06-19 15:00:26 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n1ZrwLRKuY/H8UlSORQ3e/kaWHk2b6Lbk6wSUr5Tpb0c8WgOuVSLPjyA21IQX26E9l/nSB9xbh7K/898uMRoXQ==", "venue_id"=>"4bd5b7506798ef3bd3ca638d", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 324ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-06-19 15:00:26 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:18:in `index'
+
+
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.6ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (187.1ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamiegiuliano/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (357.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-06-19 15:01:38 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n1ZrwLRKuY/H8UlSORQ3e/kaWHk2b6Lbk6wSUr5Tpb0c8WgOuVSLPjyA21IQX26E9l/nSB9xbh7K/898uMRoXQ==", "venue_id"=>"4bd5b7506798ef3bd3ca638d", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 222ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-06-19 15:01:39 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 314ms (Views: 154.7ms | ActiveRecord: 0.0ms)
