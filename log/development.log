@@ -1535,3 +1535,47 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-06-28 19:22:20 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 465ms (Views: 450.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-06-28 19:42:56 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 299ms (Views: 286.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-06-28 19:43:06 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"atoyzpm3Dr+c5L+LyhB7xtAzaBR6bEnvUKXN2RD1WpdKSPdHFzTVirdeAw0X6fvZtdDeaPKVUjLVy3fYiMpDSw==", "zipcode"=>"06851", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 348ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-06-28 19:43:12 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ydAZa8biuxIZ09OgkAMLz2nhgtWHkm3wpRqz8LWgTsHpQtziSGFgJzJpbyZN+ovQDAI0qQ9rdi0gdAnxLZ9XHQ==", "venue_id"=>"4a7846a7f964a52057e51fe3", "tip"=>"My tip", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 116ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-06-28 19:43:12 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 208ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-06-28 19:43:47 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 192ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-06-28 19:43:47 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 197ms (Views: 19.4ms | ActiveRecord: 0.0ms)
