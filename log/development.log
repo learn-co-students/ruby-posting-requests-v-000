@@ -1858,3 +1858,204 @@ NoMethodError (undefined method `[]' for nil:NilClass):
   Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (135.6ms)
+
+
+Started GET "/" for ::1 at 2018-07-10 08:19:44 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 420ms (Views: 408.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-10 08:19:45 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-07-10 08:19:45 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-07-10 08:19:45 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-07-10 08:19:45 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-07-10 08:19:45 -0700
+
+
+Started POST "/search" for ::1 at 2018-07-10 08:19:57 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uXjqfaWDKDl1wy3ha+Lse7CHWzQFo4Si4Td4wo1EMRfvZQaaYbZZaKJ24ID0bZQK8jr3JN7yNb8bINta73jDNw==", "zipcode"=>"90621", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 503ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-07-10 09:02:36 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HlHvW4FfjfZ3zwbdBn2PYUKthITlcR1gwlzEvQOxeO5ITAO8RWr8p6B6y7yZ8vcQABAolD4grH04S2clYY2Kzg==", "venue_id"=>"4adb82f9f964a5206e2821e3", "tip"=>"0", "commit"=>"ADD TIP"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 185ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-07-10 09:02:36 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:18:in `index'
+
+
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.9ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (83.0ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (181.7ms)
+
+
+Started GET "/" for ::1 at 2018-07-10 09:04:48 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 225ms (Views: 215.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-10 09:04:49 -0700
+
+
+Started POST "/search" for ::1 at 2018-07-10 09:04:51 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQqW+8CsCgBrw3pT/4225b7Fi3pV45ywG4rg0OGuDP8rF3ocBJl7Ubx2tzJgAs6U/Hgnao6yLa3hnUNIg5L+3w==", "zipcode"=>"90621", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 837ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-07-10 09:04:54 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mZz8xqGCIoV6D+3E2llEX7yY/Lf9MNGjmQ4anVrAfZjPgRAhZbdT1K26IKVF1jwu/iVQpyZhYL5jGbkFOPyPuA==", "venue_id"=>"4adb82f9f964a5206e2821e3", "tip"=>"3", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 406ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-07-10 09:04:55 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 411ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (71.1ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (163.2ms)
+
+
+Started GET "/search" for ::1 at 2018-07-10 09:07:30 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-07-10 09:07:33 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/PTt+A0nsp/7Z2bF24rqFuCZgTPl9kL+Ifdz62/wK857j9QJAHvm6hYUPqI4VPZGT/KFBTGaBYCkH5Xz4Myjw==", "zipcode"=>"90621", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 431ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-07-10 09:07:36 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3LTo8n//Ms7RSW1lza/tFPo7GebpQ/tBB/ciMXL+PgaKqQQVu8pDnwb8oARSIJVluIa19jISSlz94IGpEMLMJg==", "venue_id"=>"43bd6072f964a520062d1fe3", "tip"=>"3", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 141ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-07-10 09:07:36 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:9:in `index'
+
+
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.1ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (64.6ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (146.8ms)
+
+
+Started PUT "/__web_console/repl_sessions/5b62970f8ca22c9a1bed7b9e378840f5" for ::1 at 2018-07-10 09:07:43 -0700
+
+
+Started PUT "/__web_console/repl_sessions/5b62970f8ca22c9a1bed7b9e378840f5" for ::1 at 2018-07-10 09:07:48 -0700
+
+
+Started PUT "/__web_console/repl_sessions/5b62970f8ca22c9a1bed7b9e378840f5" for ::1 at 2018-07-10 09:08:10 -0700
+
+
+Started PUT "/__web_console/repl_sessions/5b62970f8ca22c9a1bed7b9e378840f5" for ::1 at 2018-07-10 09:08:12 -0700
+
+
+Started GET "/search" for ::1 at 2018-07-10 09:09:49 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 203ms (Views: 193.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-07-10 09:09:52 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nH2iWABDs673tgToYKf/hxZ/QlHwGH8yfcx1x0g5rBHKYE6/xHbC/yADyYn/KIf2VMLuQStJzi+H29ZfKgVeMQ==", "zipcode"=>"90621", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 467ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-07-10 09:09:55 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QTH+npsaIAvwO4q93dF5slAvZfnFNBphuPliT4lVwdQXLBJ5Xy9RWieOR9xCXgHDEpLJ6R5lq3xC7sHX62kz9A==", "venue_id"=>"43bd6072f964a520062d1fe3", "tip"=>"9", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 168ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-07-10 09:09:55 -0700
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tips_controller.rb:9:in `index'
+
+
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.7ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (76.1ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/jojo/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (168.6ms)
+
+
+Started PUT "/__web_console/repl_sessions/0967dcfb038d7105c7138790e57769a3" for ::1 at 2018-07-10 09:10:01 -0700
