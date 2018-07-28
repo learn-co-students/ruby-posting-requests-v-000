@@ -1535,3 +1535,84 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 74.108.39.105 at 2018-07-28 17:28:23 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 415ms (Views: 403.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 74.108.39.105 at 2018-07-28 17:28:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 74.108.39.105 at 2018-07-28 17:28:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 74.108.39.105 at 2018-07-28 17:28:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 74.108.39.105 at 2018-07-28 17:28:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 74.108.39.105 at 2018-07-28 17:28:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 74.108.39.105 at 2018-07-28 18:05:14 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 219ms (Views: 207.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 74.108.39.105 at 2018-07-28 18:05:32 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5IIfTJLhTjXJo65togT76BgbON2EWoC0rIzXygEuVCERYkHR6iw3YN7gSYuRBvJlqhH/jpx5WnVOzINZcPx3w==", "zipcode"=>"06807", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 222ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 74.108.39.105 at 2018-07-28 18:05:44 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpV2BQMfdd3i9pO+4E/Xfa5/xx7zkrtjnnXm+JifV7iBQvd/dvxAOLarnCF4g99bmLfsA7/yNAiZ/Oeq1VgfNw==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 112ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 74.108.39.105 at 2018-07-28 18:06:09 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpV2BQMfdd3i9pO+4E/Xfa5/xx7zkrtjnnXm+JifV7iBQvd/dvxAOLarnCF4g99bmLfsA7/yNAiZ/Oeq1VgfNw==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 132ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 74.108.39.105 at 2018-07-28 18:06:12 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EhdmMq0gAROTZ4SKmOdcx+Qu2/o7BTnj1nokDBMmh/PNwOdI2MM09sc6ixUAK1Th0ubw53dltojR8yVeXuHPfA==", "zipcode"=>"06807", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 254ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 74.108.39.105 at 2018-07-28 18:06:23 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ioLdpR3yzREE2VE10y8bhcpbAup5xWS1lNiWa/l4db1VVVzfaBH49FCEXqpL4xOj/JMp9zWl696TUZc5tL89Mg==", "venue_id"=>"4a7846a7f964a52057e51fe3", "tip"=>"nice place", "commit"=>"Add Tip"}
+Redirected to http://67.205.182.198:44541/tips
+Completed 302 Found in 271ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 74.108.39.105 at 2018-07-28 18:06:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 109ms (Views: 17.0ms | ActiveRecord: 0.0ms)
