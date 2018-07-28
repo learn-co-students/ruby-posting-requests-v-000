@@ -1535,3 +1535,29 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2018-07-28 13:42:36 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1094ms (Views: 1019.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-07-28 13:42:44 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/hWVVsAFX3yui/HDv+FKsRFClLphgy3SSMWjSt5C/h9DbQ8zue4p+5p6mXfTYsULvYZ0jOXO8E7mycvUCmIUcw==", "zipcode"=>"06320", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 836ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-07-28 13:43:54 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CcBK5E8soAj21rJDtNTHXkHSTYF81N8Z24W5P6Dgf8m0uNCBNsfWj8In2vfYV0jk7Ratt/iZAoV1idGhdMCVpQ==", "venue_id"=>"507c13f6e4b06da1434665f6", "tip"=>"The best BLT, amazing egg tacos.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 667ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-07-28 13:43:56 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 326ms (Views: 109.4ms | ActiveRecord: 0.0ms)
