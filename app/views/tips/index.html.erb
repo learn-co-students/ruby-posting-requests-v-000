@@ -1,1 +1,12 @@
+<h1>My tips</h1>
 
+<% if @tips.size > 0 %>
+  <ul>
+    <% @tips.each do |tip| %>
+      <li><strong><%= tip["venue"]["name"]%></strong><br>
+      <%= tip["tip"]["text"] %></li>
+    <%end%>
+  </ul>
+<%else%>
+  <p>You've not suggested any tips yet!</p>
+<%end%>
