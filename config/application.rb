@@ -5,7 +5,8 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-
+Dotenv::Railtie.load
+FOURSQUARE_CLIENT_ID = ENV['VEB0OAQTYTHNGDJNMGQCC2JVXXSMEAVFNZKFQBYYN3DHSF0U']
 module ApisAndFaradayReading
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
