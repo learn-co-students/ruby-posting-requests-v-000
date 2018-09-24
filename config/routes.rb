@@ -7,3 +7,4 @@ Rails.application.routes.draw do
   get '/friends', to: 'searches#friends'
 
 end
+resources :tips, only: [:index, :create]
