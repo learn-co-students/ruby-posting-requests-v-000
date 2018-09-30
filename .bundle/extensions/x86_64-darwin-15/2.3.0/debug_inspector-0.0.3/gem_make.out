@@ -1,0 +1,15 @@
+current directory: /Users/YY/Flatiron/M3/lab/ruby-posting-requests-v-000/.bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/YY/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20180929-22532-1wpwcmg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/YY/Flatiron/M3/lab/ruby-posting-requests-v-000/.bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/YY/Flatiron/M3/lab/ruby-posting-requests-v-000/.bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/YY/Flatiron/M3/lab/ruby-posting-requests-v-000/.bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20180929-22532-1ifnvbm
