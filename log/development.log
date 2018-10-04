@@ -1554,3 +1554,36 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"cXzdXvjhtEhbEox2taNU8ptbtNqwW+B6MQuguKhsJ285rLfw4KqJ6Ui74EE0S8ep6A+sECUTj+uE61/90Cu1eA==", "zipcode"=>"10007", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (8.1ms)
 Completed 200 OK in 330ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-10-04 11:11:03 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cXzdXvjhtEhbEox2taNU8ptbtNqwW+B6MQuguKhsJ285rLfw4KqJ6Ui74EE0S8ep6A+sECUTj+uE61/90Cu1eA==", "zipcode"=>"10007", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 688ms (Views: 322.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-10-04 11:11:05 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-10-04 11:11:07 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6avnuexD2nlhV4soRhvcpJHWXg4RpGkk73yMbX+zOAzdsUw//oyyPYsMhsg8Pwp4RNBsq0O/jUmXQ10zble9w==", "zipcode"=>"10007", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 515ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-10-04 11:11:31 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IqdcvhbQ9oNHxR+ezAY7w9CslA+maqNA6zPst/u/MD5qdzYQDpvLIlRsc6lN7qiYo/iMxTMizNFe0xPyg/iiKQ==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"this is a great spot", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1145ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-10-04 11:11:32 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 757ms (Views: 45.7ms | ActiveRecord: 0.0ms)
