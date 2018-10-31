@@ -1535,3 +1535,300 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 24.103.75.134 at 2018-10-25 18:54:10 +0000
+Cannot render console from 24.103.75.134! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-29 20:40:36 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=EXQ03NUCTK2DMUUTLZ40YXR3GI3DXT1GUDH2OONNUG2JCUV0" for ::1 at 2018-10-29 20:40:39 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"EXQ03NUCTK2DMUUTLZ40YXR3GI3DXT1GUDH2OONNUG2JCUV0"}
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Access to this page has been denied.</title> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> <style> html, body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; color: #000; } a { color: #c5c5c5; text-decoration: none; } .container { align-items: center; display: flex; flex: 1; justify-content: space-between; flex-direction: column; height: 100%; } .container > div { width: 100%; display: flex; justify-content: center; } .container > div > div { display: flex; width: 80%; } .customer-logo-wrapper { padding-top: 2rem; flex-grow: 0; background-color: #fff; visibility: hidden; } .customer-logo { border-bottom: 1px solid #000; } .customer-logo > img { padding-bottom: 1rem; max-height: 50px; max-width: 100%; } .page-title-wrapper { flex-grow: 2; } .page-title { flex-direction: column-reverse; } .content-wrapper { flex-grow: 5; } .content { flex-direction: column; } .page-footer-wrapper { align-items: center; flex-grow: 0.2; background-color: #000; color: #c5c5c5; font-size: 70%; } @media (min-width: 768px) { html, body { height: 100%; } } </style> <!-- Custom CSS -->  </head> <body> <section class="container"> <div class="customer-logo-wrapper"> <div class="customer-logo"> <img src="" alt="Logo"/> </div> </div> <div class="page-title-wrapper"> <div class="page-title"> <h1>Please verify you are a human</h1> </div> </div> <div class="content-wrapper"> <div class="content"> <div id="px-captcha"> </div> <p> Access to this page has been denied because we believe you are using automation tools to browse the website. </p> <p> This may happen as a result of the following: </p> <ul> <li> Javascript is disabled or blocked by an extension (ad blockers for example) </li> <li> Your browser does not support cookies </li> </ul> <p> Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. </p> <p> Reference ID: #77b0b3f0-dbdb-11e8-9012-254db7a51c1a </p> </div> </div> <div class="page-footer-wrapper"> <div class="page-footer"> <p> Powered by <a href="https://www.perimeterx.com/whywasiblocked">PerimeterX</a> , Inc. </p> </div> </div> </section> <!-- Px --> <script> window._pxAppId = 'PX0UqK4c76'; window._pxJsClientSrc = '/0UqK4c76/init.js'; window._pxFirstPartyEnabled = true; window._pxVid = ''; window._pxUuid = '77b0b3f0-dbdb-11e8-9012-254db7a51c1a'; window._pxHostUrl = '/0UqK4c76/xhr'; </script> <script src="/0UqK4c76/captcha/captcha.js?a=c&u=77b0b3f0-dbdb-11e8-9012-254db7a51c1a&v=&m=0"></script> <!-- Custom Script -->  </body> </html>'):
+  app/controllers/sessions_controller.rb:13:in `create'
+
+
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.7ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (80.2ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (167.0ms)
+
+
+Started PUT "/__web_console/repl_sessions/1adfc80f2d9050377041f10320e84cd2" for ::1 at 2018-10-29 20:41:21 -0400
+
+
+Started PUT "/__web_console/repl_sessions/1adfc80f2d9050377041f10320e84cd2" for ::1 at 2018-10-29 20:41:31 -0400
+
+
+Started PUT "/__web_console/repl_sessions/1adfc80f2d9050377041f10320e84cd2" for ::1 at 2018-10-29 20:41:41 -0400
+
+
+Started PUT "/__web_console/repl_sessions/1adfc80f2d9050377041f10320e84cd2" for ::1 at 2018-10-29 20:41:50 -0400
+
+
+Started GET "/" for ::1 at 2018-10-30 20:11:37 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OBM453QWIHRUPKNGE4BR25WBGQ1Z2OVOPBZMTJTAZU3YSF3R" for ::1 at 2018-10-30 20:11:43 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OBM453QWIHRUPKNGE4BR25WBGQ1Z2OVOPBZMTJTAZU3YSF3R"}
+Completed 500 Internal Server Error in 243ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Access to this page has been denied.</title> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> <style> html, body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; color: #000; } a { color: #c5c5c5; text-decoration: none; } .container { align-items: center; display: flex; flex: 1; justify-content: space-between; flex-direction: column; height: 100%; } .container > div { width: 100%; display: flex; justify-content: center; } .container > div > div { display: flex; width: 80%; } .customer-logo-wrapper { padding-top: 2rem; flex-grow: 0; background-color: #fff; visibility: hidden; } .customer-logo { border-bottom: 1px solid #000; } .customer-logo > img { padding-bottom: 1rem; max-height: 50px; max-width: 100%; } .page-title-wrapper { flex-grow: 2; } .page-title { flex-direction: column-reverse; } .content-wrapper { flex-grow: 5; } .content { flex-direction: column; } .page-footer-wrapper { align-items: center; flex-grow: 0.2; background-color: #000; color: #c5c5c5; font-size: 70%; } @media (min-width: 768px) { html, body { height: 100%; } } </style> <!-- Custom CSS -->  </head> <body> <section class="container"> <div class="customer-logo-wrapper"> <div class="customer-logo"> <img src="" alt="Logo"/> </div> </div> <div class="page-title-wrapper"> <div class="page-title"> <h1>Please verify you are a human</h1> </div> </div> <div class="content-wrapper"> <div class="content"> <div id="px-captcha"> </div> <p> Access to this page has been denied because we believe you are using automation tools to browse the website. </p> <p> This may happen as a result of the following: </p> <ul> <li> Javascript is disabled or blocked by an extension (ad blockers for example) </li> <li> Your browser does not support cookies </li> </ul> <p> Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. </p> <p> Reference ID: #9579b6a0-dca0-11e8-b779-d56860b25bf3 </p> </div> </div> <div class="page-footer-wrapper"> <div class="page-footer"> <p> Powered by <a href="https://www.perimeterx.com/whywasiblocked">PerimeterX</a> , Inc. </p> </div> </div> </section> <!-- Px --> <script> window._pxAppId = 'PX0UqK4c76'; window._pxJsClientSrc = '/0UqK4c76/init.js'; window._pxFirstPartyEnabled = true; window._pxVid = ''; window._pxUuid = '9579b6a0-dca0-11e8-b779-d56860b25bf3'; window._pxHostUrl = '/0UqK4c76/xhr'; </script> <script src="/0UqK4c76/captcha/captcha.js?a=c&u=9579b6a0-dca0-11e8-b779-d56860b25bf3&v=&m=0"></script> <!-- Custom Script -->  </body> </html>'):
+  app/controllers/sessions_controller.rb:13:in `create'
+
+
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.6ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.9ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (171.5ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 20:39:59 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MI0M1PSZDJ1CNZ1JLIGTLMXV0WJZZMN4PVZDT5TVAXVMSUI4" for ::1 at 2018-10-30 20:40:03 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MI0M1PSZDJ1CNZ1JLIGTLMXV0WJZZMN4PVZDT5TVAXVMSUI4"}
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Access to this page has been denied.</title> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> <style> html, body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; color: #000; } a { color: #c5c5c5; text-decoration: none; } .container { align-items: center; display: flex; flex: 1; justify-content: space-between; flex-direction: column; height: 100%; } .container > div { width: 100%; display: flex; justify-content: center; } .container > div > div { display: flex; width: 80%; } .customer-logo-wrapper { padding-top: 2rem; flex-grow: 0; background-color: #fff; visibility: hidden; } .customer-logo { border-bottom: 1px solid #000; } .customer-logo > img { padding-bottom: 1rem; max-height: 50px; max-width: 100%; } .page-title-wrapper { flex-grow: 2; } .page-title { flex-direction: column-reverse; } .content-wrapper { flex-grow: 5; } .content { flex-direction: column; } .page-footer-wrapper { align-items: center; flex-grow: 0.2; background-color: #000; color: #c5c5c5; font-size: 70%; } @media (min-width: 768px) { html, body { height: 100%; } } </style> <!-- Custom CSS -->  </head> <body> <section class="container"> <div class="customer-logo-wrapper"> <div class="customer-logo"> <img src="" alt="Logo"/> </div> </div> <div class="page-title-wrapper"> <div class="page-title"> <h1>Please verify you are a human</h1> </div> </div> <div class="content-wrapper"> <div class="content"> <div id="px-captcha"> </div> <p> Access to this page has been denied because we believe you are using automation tools to browse the website. </p> <p> This may happen as a result of the following: </p> <ul> <li> Javascript is disabled or blocked by an extension (ad blockers for example) </li> <li> Your browser does not support cookies </li> </ul> <p> Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. </p> <p> Reference ID: #8adf7e10-dca4-11e8-a6f3-6146a3f090f3 </p> </div> </div> <div class="page-footer-wrapper"> <div class="page-footer"> <p> Powered by <a href="https://www.perimeterx.com/whywasiblocked">PerimeterX</a> , Inc. </p> </div> </div> </section> <!-- Px --> <script> window._pxAppId = 'PX0UqK4c76'; window._pxJsClientSrc = '/0UqK4c76/init.js'; window._pxFirstPartyEnabled = true; window._pxVid = ''; window._pxUuid = '8adf7e10-dca4-11e8-a6f3-6146a3f090f3'; window._pxHostUrl = '/0UqK4c76/xhr'; </script> <script src="/0UqK4c76/captcha/captcha.js?a=c&u=8adf7e10-dca4-11e8-a6f3-6146a3f090f3&v=&m=0"></script> <!-- Custom Script -->  </body> </html>'):
+  app/controllers/sessions_controller.rb:13:in `create'
+
+
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.2ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (79.9ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (166.9ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:04:13 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LQGV1ATCNSPDFQBHCW1EZQ25D14OFBU0VV312TFH43KR5OZJ" for ::1 at 2018-10-30 21:04:16 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LQGV1ATCNSPDFQBHCW1EZQ25D14OFBU0VV312TFH43KR5OZJ"}
+Completed 500 Internal Server Error in 403ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Access to this page has been denied.</title> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> <style> html, body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; color: #000; } a { color: #c5c5c5; text-decoration: none; } .container { align-items: center; display: flex; flex: 1; justify-content: space-between; flex-direction: column; height: 100%; } .container > div { width: 100%; display: flex; justify-content: center; } .container > div > div { display: flex; width: 80%; } .customer-logo-wrapper { padding-top: 2rem; flex-grow: 0; background-color: #fff; visibility: hidden; } .customer-logo { border-bottom: 1px solid #000; } .customer-logo > img { padding-bottom: 1rem; max-height: 50px; max-width: 100%; } .page-title-wrapper { flex-grow: 2; } .page-title { flex-direction: column-reverse; } .content-wrapper { flex-grow: 5; } .content { flex-direction: column; } .page-footer-wrapper { align-items: center; flex-grow: 0.2; background-color: #000; color: #c5c5c5; font-size: 70%; } @media (min-width: 768px) { html, body { height: 100%; } } </style> <!-- Custom CSS -->  </head> <body> <section class="container"> <div class="customer-logo-wrapper"> <div class="customer-logo"> <img src="" alt="Logo"/> </div> </div> <div class="page-title-wrapper"> <div class="page-title"> <h1>Please verify you are a human</h1> </div> </div> <div class="content-wrapper"> <div class="content"> <div id="px-captcha"> </div> <p> Access to this page has been denied because we believe you are using automation tools to browse the website. </p> <p> This may happen as a result of the following: </p> <ul> <li> Javascript is disabled or blocked by an extension (ad blockers for example) </li> <li> Your browser does not support cookies </li> </ul> <p> Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. </p> <p> Reference ID: #ed2b57d0-dca7-11e8-8e72-372ca06688cd </p> </div> </div> <div class="page-footer-wrapper"> <div class="page-footer"> <p> Powered by <a href="https://www.perimeterx.com/whywasiblocked">PerimeterX</a> , Inc. </p> </div> </div> </section> <!-- Px --> <script> window._pxAppId = 'PX0UqK4c76'; window._pxJsClientSrc = '/0UqK4c76/init.js'; window._pxFirstPartyEnabled = true; window._pxVid = ''; window._pxUuid = 'ed2b57d0-dca7-11e8-8e72-372ca06688cd'; window._pxHostUrl = '/0UqK4c76/xhr'; </script> <script src="/0UqK4c76/captcha/captcha.js?a=c&u=ed2b57d0-dca7-11e8-8e72-372ca06688cd&v=&m=0"></script> <!-- Custom Script -->  </body> </html>'):
+  app/controllers/sessions_controller.rb:13:in `create'
+
+
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.6ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.7ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (130.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:12:59 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YZBMWMMEGGLQJ24MR05QJOJNPQ5XYQV2K2TXA1BQDEHAFNVF" for ::1 at 2018-10-30 21:13:04 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YZBMWMMEGGLQJ24MR05QJOJNPQ5XYQV2K2TXA1BQDEHAFNVF"}
+Completed 500 Internal Server Error in 573ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Access to this page has been denied.</title> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> <style> html, body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; color: #000; } a { color: #c5c5c5; text-decoration: none; } .container { align-items: center; display: flex; flex: 1; justify-content: space-between; flex-direction: column; height: 100%; } .container > div { width: 100%; display: flex; justify-content: center; } .container > div > div { display: flex; width: 80%; } .customer-logo-wrapper { padding-top: 2rem; flex-grow: 0; background-color: #fff; visibility: hidden; } .customer-logo { border-bottom: 1px solid #000; } .customer-logo > img { padding-bottom: 1rem; max-height: 50px; max-width: 100%; } .page-title-wrapper { flex-grow: 2; } .page-title { flex-direction: column-reverse; } .content-wrapper { flex-grow: 5; } .content { flex-direction: column; } .page-footer-wrapper { align-items: center; flex-grow: 0.2; background-color: #000; color: #c5c5c5; font-size: 70%; } @media (min-width: 768px) { html, body { height: 100%; } } </style> <!-- Custom CSS -->  </head> <body> <section class="container"> <div class="customer-logo-wrapper"> <div class="customer-logo"> <img src="" alt="Logo"/> </div> </div> <div class="page-title-wrapper"> <div class="page-title"> <h1>Please verify you are a human</h1> </div> </div> <div class="content-wrapper"> <div class="content"> <div id="px-captcha"> </div> <p> Access to this page has been denied because we believe you are using automation tools to browse the website. </p> <p> This may happen as a result of the following: </p> <ul> <li> Javascript is disabled or blocked by an extension (ad blockers for example) </li> <li> Your browser does not support cookies </li> </ul> <p> Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. </p> <p> Reference ID: #2844c760-dca9-11e8-a0fa-e1530e939333 </p> </div> </div> <div class="page-footer-wrapper"> <div class="page-footer"> <p> Powered by <a href="https://www.perimeterx.com/whywasiblocked">PerimeterX</a> , Inc. </p> </div> </div> </section> <!-- Px --> <script> window._pxAppId = 'PX0UqK4c76'; window._pxJsClientSrc = '/0UqK4c76/init.js'; window._pxFirstPartyEnabled = true; window._pxVid = ''; window._pxUuid = '2844c760-dca9-11e8-a0fa-e1530e939333'; window._pxHostUrl = '/0UqK4c76/xhr'; </script> <script src="/0UqK4c76/captcha/captcha.js?a=c&u=2844c760-dca9-11e8-a0fa-e1530e939333&v=&m=0"></script> <!-- Custom Script -->  </body> </html>'):
+  app/controllers/sessions_controller.rb:13:in `create'
+
+
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.3ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Mallory/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (188.6ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:14:33 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YWNX5APCSP0TXBTZO41OOVCARDMGIRBKAQGOT5IGILIHYA2T" for ::1 at 2018-10-30 21:14:36 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YWNX5APCSP0TXBTZO41OOVCARDMGIRBKAQGOT5IGILIHYA2T"}
+Completed   in 140253ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:17:09 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 18ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LCIYGLTWNDFXOVC2WORYHPPWVAG5XW4D1ZITWQRJZQ3VPJZK" for ::1 at 2018-10-30 21:17:12 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LCIYGLTWNDFXOVC2WORYHPPWVAG5XW4D1ZITWQRJZQ3VPJZK"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 617ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:17:12 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OCHNGULELIUBQSBJIVEPSXU52LLGZGI5IEBIGOTH4C05STYV" for ::1 at 2018-10-30 21:17:19 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OCHNGULELIUBQSBJIVEPSXU52LLGZGI5IEBIGOTH4C05STYV"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 146ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:17:19 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VGXV3NS4RYL311NG3ST45ZOM1YTHSXA2DPPALTBC3XGAIADX" for ::1 at 2018-10-30 21:17:27 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VGXV3NS4RYL311NG3ST45ZOM1YTHSXA2DPPALTBC3XGAIADX"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 457ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:17:28 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:19:05 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RTY5U3AS1JPKEKNFDBZV2GDR5GU154TOTZ3VSHJY1MUIHVRR" for ::1 at 2018-10-30 21:19:10 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"RTY5U3AS1JPKEKNFDBZV2GDR5GU154TOTZ3VSHJY1MUIHVRR"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=2RDGOTWZBGB4IPZIG2YEN3GHJC1TL3PUYFPSCOEVIEE0BHIT" for ::1 at 2018-10-30 21:19:12 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"2RDGOTWZBGB4IPZIG2YEN3GHJC1TL3PUYFPSCOEVIEE0BHIT"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:20:04 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GCDFCCARXSFBPMZQ3PKRCSAUG21TFYBRLGNC2PWE12VWH1SP" for ::1 at 2018-10-30 21:20:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GCDFCCARXSFBPMZQ3PKRCSAUG21TFYBRLGNC2PWE12VWH1SP"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 608ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:20:06 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KYOIJFF1Z4552GDZLGP2TWL3ZEF4RFPZVNLOQKDMQQ0UHCCC" for ::1 at 2018-10-30 21:21:43 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KYOIJFF1Z4552GDZLGP2TWL3ZEF4RFPZVNLOQKDMQQ0UHCCC"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 573ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VWMU2YZLCUWZ1VVQM3MYCUY33PJODUSHGQTGESSNXDVEVUAN" for ::1 at 2018-10-30 21:21:44 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VWMU2YZLCUWZ1VVQM3MYCUY33PJODUSHGQTGESSNXDVEVUAN"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 141ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-30 21:21:44 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=N4SA3OAUG5J2SJPQOKV5SEJFIKBGY1HR5DGSLRKAFQCHV4W4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
