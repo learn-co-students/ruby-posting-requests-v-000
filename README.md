@@ -2,7 +2,7 @@
 
 ## Objectives
 
-  1. Understand what POST params are
+  1. Understand what POST param are
   2. Send POST requests with params via Postman and Faraday
   3. Understand the difference between POST params and JSON in the body
 
