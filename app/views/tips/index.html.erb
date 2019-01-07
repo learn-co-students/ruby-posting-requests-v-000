@@ -1,1 +1,11 @@
+<h1>Displaying Your Tips:</h1>
 
+<% if @results %>
+    <ul>
+        <% @results.each do |result| %>
+            <li><strong><%= result["venue"]["name"] %></strong><br>
+            Link to Tip: <%= link_to result["tip"]["canonicalUrl"], result["tip"]["canonicalUrl"], target: "_blank" %> <br>
+            Tip: <%= result["tip"]["text"] %></li>
+        <% end %>
+    </ul>
+<% end %>
