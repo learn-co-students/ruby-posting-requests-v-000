@@ -1535,3 +1535,70 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2019-01-10 12:33:42 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 473ms (Views: 463.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-01-10 12:57:58 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 270ms (Views: 259.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-01-10 12:58:03 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2Hu8ZTMOoCdpxLpCUcEqJc4dfLQpA/q09jHZg1emOCI6/ytsyhYyHuwdBCkeHRHn1yNLPtD49060NPkO6EqlMw==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1216ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-01-10 12:58:14 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdiB14F+o12ZHLY3RwKLF+xP4SwsDfupCed3kQzS2dmTXBbeeGYxZBzFCFwI3rDV9XHWptX29lNL4lccsz5EyA==", "zipcode"=>"brooklyn, ny", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 298ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-01-10 12:58:34 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6NJ9Ldq1D+WwghT0aD6/Er0/GhzS51caC1F3cYUeIbYKVuokI62d3DVbqp8n4oTQpAEtliscWuBJVFf8OvK8pw==", "zipcode"=>"11216", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 317ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-01-10 12:58:53 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XR+ldn4LwXRQCQ06Q0tY54y6tE5Smo1rBrDu5UHePaa/mzJ/hxNTTdXQs1EMl2MllYSDxKthgJFEtc5o/jKgtw==", "zipcode"=>"11216", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 307ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-01-10 12:59:22 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"waqW1m+PXyAOVLY/mKCbp/DA2dC6WFPhoWspN71l+EUjLgHflpfNGYuNCFTXfKBl6f7uWkOjXhvjbgm6AollVA==", "zipcode"=>"11211", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 346ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-01-10 12:59:51 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yx555LfKC647mvX49V6u59MouuwRPWRLy7qj0sr9OVyBmu7tTtKZl75DS5O6gpUlyhaNZujGabGJv4NfdRGkTQ==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 332ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-01-10 13:00:20 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhmK2voof1XIpkRuWStHVmvEe2lVFtd3RfyXbZ0FMUGknR3TAzDtbE1/+gUW93yUcvpM46zt2o0H+bfgIumsUA==", "venue_id"=>"433f2300f964a52050281fe3", "tip"=>"I hear it's great", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 406ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-01-10 13:00:21 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 289ms (Views: 37.4ms | ActiveRecord: 0.0ms)
