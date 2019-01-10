@@ -1,1 +1,8 @@
-
+<ul>
+<% @tips.each do |tip| %>
+    <li>
+        <p><%= tip["venue"]["name"]  %></p>
+        <p><%= tip["tip"]["text"] %></p>
+    </li>
+<% end %>
+</ul>
