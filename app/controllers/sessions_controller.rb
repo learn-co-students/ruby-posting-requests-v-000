@@ -1,3 +1,5 @@
+#When a user navigates to root page then they are asked to provide permission so that a token can be generated. 
+
 class SessionsController < ApplicationController
   skip_before_action :authenticate_user
 
