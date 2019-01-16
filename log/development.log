@@ -1535,3 +1535,30 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2019-01-16 17:11:02 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=DKKUI4ZVKSK0IZH13PMIVCIMJ4XVNJHHCVMWPUTBVZEXFWGY&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-16 17:11:42 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=DKKUI4ZVKSK0IZH13PMIVCIMJ4XVNJHHCVMWPUTBVZEXFWGY&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1TKPW2ZGY451PIZT5JPXZKCB2DEUBKKXXMDGF1CPAYBJ5FJ0" for ::1 at 2019-01-16 17:11:44 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1TKPW2ZGY451PIZT5JPXZKCB2DEUBKKXXMDGF1CPAYBJ5FJ0"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 282ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-16 17:11:45 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 819ms (Views: 817.0ms | ActiveRecord: 0.0ms)
