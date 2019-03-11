@@ -1535,3 +1535,117 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2019-03-11 11:42:16 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 517ms (Views: 503.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-11 11:43:23 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 228ms (Views: 217.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-11 11:58:44 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 220ms (Views: 207.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-03-11 11:58:48 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J3+H836K2gp/LpsiiQzaoYdnUbbOa3xesqGH54GH3u23epBp5/al4l4mk/734b/eokpGgZk7QmFOCG0ng4QlaQ==", "zipcode"=>"80122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 402ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-03-11 11:58:59 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wy7kBPCQRuwyYLlreiZMS1AmdNpx8dSZvmb88bONt9nLK/Oeaew5BBNosbcEyyk0dQtj7Sah6qZCzxYxsY5MXQ==", "tip"=>"Great Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 191ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 11:58:59 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 298ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 11:59:12 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 244ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-03-11 11:59:29 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wy7kBPCQRuwyYLlreiZMS1AmdNpx8dSZvmb88bONt9nLK/Oeaew5BBNosbcEyyk0dQtj7Sah6qZCzxYxsY5MXQ==", "tip"=>"Great Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 225ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 11:59:30 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 308ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-03-11 12:00:39 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-03-11 12:00:43 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mzlpkqAM9mIklBcCNuCzx+rmQBJmsYYO4OA1GeEQCDkLPH4IOXCJigWcH95IDda4z8tXJTHhuDEcSd/Z4xPzvQ==", "zipcode"=>"80122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 449ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-11 12:01:59 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 231ms (Views: 218.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-03-11 12:02:02 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QHPiDHHa5mhWn2T7HW2bRmBYnRlCw5RsTDtV48CpJ0PQdvWW6KaZgHeXbCdjgP45RXWKLhWTqlOwkr8jwqrcxw==", "zipcode"=>"80122", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 431ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-03-11 12:02:07 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vsh8ASqxhNQVBmuKmarBAeEEWgDqSVQW7KGUbdGVkLYuzWubs837PDQOY1bnR6R+xClNN70ZaikQCH6t05ZrMg==", "tip"=>"Great Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 207ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 12:02:07 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 513ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 12:02:34 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 364ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 12:03:59 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 460ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-03-11 12:04:02 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 310ms (Views: 23.0ms | ActiveRecord: 0.0ms)
