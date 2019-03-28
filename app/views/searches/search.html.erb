@@ -10,12 +10,16 @@
   <% elsif @venues %>
     <ul>
     <% @venues.each do |venue| %>
-      <li>
-        <%= venue["name"] %><br>
-        <%= venue["location"]["address"] %><br>
-        Checkins: <%= venue["stats"]["checkinsCount"] %><br>
-      </li>
-    <% end %>
+      <li>	        <li>
+        <%= venue["name"] %><br>	          <%= venue["name"] %><br>
+        <%= venue["location"]["address"] %><br>	          <%= venue["location"]["address"] %><br>
+        Checkins: <%= venue["stats"]["checkinsCount"] %><br>	          Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+      </li>	          <%= form_tag '/tips' do %>
+    <% end %>	            <%= hidden_field_tag :venue_id, venue["id"] %>
+            Add tip: <%= text_field_tag :tip %><%= submit_tag "Add Tip" %>
+          <% end %>
+        </li>
+      <% end %>
     </ul>
   <% end %>
 </div>
