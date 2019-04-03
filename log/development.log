@@ -1535,3 +1535,351 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 20:46:05 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 20:48:30 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 20:50:01 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:10:49 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:12:20 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:13:03 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:13:55 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CX3CVNBV0LLF2EUQZL0AUNNN13NFJ0SFP0ALHILICCM2FQEF" for 127.0.0.1 at 2019-04-02 21:15:04 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CX3CVNBV0LLF2EUQZL0AUNNN13NFJ0SFP0ALHILICCM2FQEF"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 930ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:05 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MTYPAHWSFQIB3G0ACRM3OZHBHWHPFUJ2SKKS0XNQKKEW5WQH" for 127.0.0.1 at 2019-04-02 21:15:08 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MTYPAHWSFQIB3G0ACRM3OZHBHWHPFUJ2SKKS0XNQKKEW5WQH"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 78ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:08 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=2ACEG140Y1FH3GPFPD1FILBRMJO1R4X0CF4VYJYUIP4RWGSG" for 127.0.0.1 at 2019-04-02 21:15:46 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"2ACEG140Y1FH3GPFPD1FILBRMJO1R4X0CF4VYJYUIP4RWGSG"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:46 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NREAIHUKQ01EZI5ISACNGCVGEHI1O0G4DUR3VAXOW4G2Z1R1" for 127.0.0.1 at 2019-04-02 21:15:47 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NREAIHUKQ01EZI5ISACNGCVGEHI1O0G4DUR3VAXOW4G2Z1R1"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 118ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:47 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=52AWSK3UKFEWTXNSXII3HDTQPIKZDEX2RXU1OMIRRYSCOHT2" for 127.0.0.1 at 2019-04-02 21:15:47 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"52AWSK3UKFEWTXNSXII3HDTQPIKZDEX2RXU1OMIRRYSCOHT2"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:48 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PQMLAPZOXMXB2ZADYIGIBCGP5QOI453YVJ4ZIW3LINWXJYT4" for 127.0.0.1 at 2019-04-02 21:15:48 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PQMLAPZOXMXB2ZADYIGIBCGP5QOI453YVJ4ZIW3LINWXJYT4"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:48 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=O0CW0SF22LUTQ4IBUISQOILDUKFVNUXQ2Y3QVWD1BWXAJJ1H" for 127.0.0.1 at 2019-04-02 21:15:49 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"O0CW0SF22LUTQ4IBUISQOILDUKFVNUXQ2Y3QVWD1BWXAJJ1H"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:49 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LKVGGLJANBE3GKIDEKIE4BCG5XR3YR1SBT0QC2RQCLY4PD4W" for 127.0.0.1 at 2019-04-02 21:15:50 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LKVGGLJANBE3GKIDEKIE4BCG5XR3YR1SBT0QC2RQCLY4PD4W"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:15:50 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QKYKMTJBEUYIEPQRRK1PHJMVEHSMYNHWJQAP1EVJ3NUE54AA" for 127.0.0.1 at 2019-04-02 21:16:14 -0400
+
+ActionController::RoutingError (undefined local variable or method `create' for SessionsController:Class):
+  app/controllers/sessions_controller.rb:2:in `<class:SessionsController>'
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.9ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.4ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.2ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hejeong/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.3ms)
+
+
+Started GET "/auth?code=QKYKMTJBEUYIEPQRRK1PHJMVEHSMYNHWJQAP1EVJ3NUE54AA" for 127.0.0.1 at 2019-04-02 21:16:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QKYKMTJBEUYIEPQRRK1PHJMVEHSMYNHWJQAP1EVJ3NUE54AA"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 81ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:16:55 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=X5AF5HY3ET0VCIQRZPA4XDTXDGVUURI11MUBNVVZSP5KRGXR" for 127.0.0.1 at 2019-04-02 21:16:56 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"X5AF5HY3ET0VCIQRZPA4XDTXDGVUURI11MUBNVVZSP5KRGXR"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 63ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:16:56 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=G221VNMWTDB3YPQZE233CWGYBWTMBN3Q3SDYERGLE32KPJVF" for 127.0.0.1 at 2019-04-02 21:16:58 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"G221VNMWTDB3YPQZE233CWGYBWTMBN3Q3SDYERGLE32KPJVF"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 74ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:16:58 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=51RJUC1W2YYFLSHIF0R5ZQHFPKFIKWUEMRUF0GGIJA2ETYNF" for 127.0.0.1 at 2019-04-02 21:16:58 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"51RJUC1W2YYFLSHIF0R5ZQHFPKFIKWUEMRUF0GGIJA2ETYNF"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 65ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-02 21:16:58 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:32:40 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GWZ104FT3SF3NK1AO3FGRDQVEB4T0NCZ0YRV2RUIYG2AQIV1" for 127.0.0.1 at 2019-04-03 10:32:43 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GWZ104FT3SF3NK1AO3FGRDQVEB4T0NCZ0YRV2RUIYG2AQIV1"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 195ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:32:43 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?error=access_denied" for 127.0.0.1 at 2019-04-03 10:32:49 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"error"=>"access_denied"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:32:49 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=BHIRTMT3PAWRWT1XQGDIZW2J5YWMRBTNLXVQF52HDL2G2AJY" for 127.0.0.1 at 2019-04-03 10:32:51 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BHIRTMT3PAWRWT1XQGDIZW2J5YWMRBTNLXVQF52HDL2G2AJY"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 147ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:32:51 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QTRFCORQKFEO4WPRW5WSKL4K32BX3QAWK1KXDXIPC42XJNUL" for 127.0.0.1 at 2019-04-03 10:32:52 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QTRFCORQKFEO4WPRW5WSKL4K32BX3QAWK1KXDXIPC42XJNUL"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:32:52 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5S2KNOX5T3W2N4LS11MWCP0I1Q2BM0L14PATY3VDOV3H3SCN" for 127.0.0.1 at 2019-04-03 10:33:24 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5S2KNOX5T3W2N4LS11MWCP0I1Q2BM0L14PATY3VDOV3H3SCN"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 107ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:33:24 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:34:32 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FXTOOWYRNZAXXVQ1JCGCL1ACPDUVPKY0RXZZAT1XTZKMMF05&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=U3WOF55AS0OX44PZHD1UAGSCR2TQP4BYHNXHMXF1AIQUKHS2" for 127.0.0.1 at 2019-04-03 10:34:33 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"U3WOF55AS0OX44PZHD1UAGSCR2TQP4BYHNXHMXF1AIQUKHS2"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 101ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-03 10:34:33 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 516ms (Views: 515.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2019-04-03 10:34:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2019-04-03 10:34:34 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2019-04-03 10:34:34 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-04-03 10:34:34 -0400
