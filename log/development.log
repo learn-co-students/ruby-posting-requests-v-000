@@ -1535,3 +1535,80 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-29 21:57:29 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 684ms (Views: 670.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-05-29 21:57:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-05-29 21:57:31 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2019-05-29 21:57:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2019-05-29 21:57:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2019-05-29 21:57:31 -0700
+
+
+Started POST "/search" for 127.0.0.1 at 2019-05-29 22:03:56 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDQMPkoj98R+CRI8JhWK9KZFdD9bLxdsZog26zU1E0O7v+f2zyhQOdqDCuzAMJtTIhz+E7vj7E5GkIUG7h0kkw==", "zipcode"=>"85705", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 738ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-05-29 22:03:57 -0700
+
+
+Started POST "/search" for 127.0.0.1 at 2019-05-29 22:04:08 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XnEsc7z5+k++oiuFdwXjBJNPcgSNcvAo4K3pU3Scg2DZ+se7OfJdshooM1WRIPKjFxb4KG2+CwrAtVq+r7S0sA==", "zipcode"=>"Time Market", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 622ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-05-29 22:04:09 -0700
+
+
+Started POST "/search" for 127.0.0.1 at 2019-05-29 22:04:20 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n5AWUQmNHk8EexZYXsjpHnKkI/icp1ZQCPpUIoapkpMYG/2ZjIa5sqDxDoi47fi59v2p1HxrrXIo4ufPXYGlQw==", "zipcode"=>"85705", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 534ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-05-29 22:04:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-05-29 22:09:14 -0700
+
+
+Started POST "/search" for 127.0.0.1 at 2019-05-29 22:22:59 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n5AWUQmNHk8EexZYXsjpHnKkI/icp1ZQCPpUIoapkpMYG/2ZjIa5sqDxDoi47fi59v2p1HxrrXIo4ufPXYGlQw==", "zipcode"=>"85705", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 652ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2019-05-29 22:24:35 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pit7dU5K4geomsvYJR1tqTgFH1N/yY6O2piitixLzH25oJC9y0FF+gwQ0wjDOHwOvFyVf58Fdaz6gBFb92P7rQ==", "venue_id"=>"4aec8e27f964a520a8c821e3", "tip"=>"I love to study here!", "commit"=>"Add Tip"}
+Redirected to https://localhost:3000/tips
+Completed 302 Found in 690ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2019-05-29 22:24:36 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 403ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-05-29 22:24:37 -0700
