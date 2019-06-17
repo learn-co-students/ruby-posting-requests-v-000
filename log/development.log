@@ -1535,3 +1535,44 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-17 16:37:26 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 961ms (Views: 928.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2019-06-17 16:37:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2019-06-17 16:37:28 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2019-06-17 16:37:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-17 18:31:00 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2019-06-17 18:31:07 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MvjlTpMIllj30py6KDXr+eT8sUU517crQCxKni28rOh8amG1SDRRX9X+klX9JbvhRUGKs1tPMfaIQ3YnEIiCbA==", "zipcode"=>"11365", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 842ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2019-06-17 18:31:27 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nnCaVsppBRPQAJGFb3oEc/L/oVpGEM/jTv3vHFZE04vQ4h6tEVXCFPIsn2q6alRrU0KarCSIST6GktOla3D9Dw==", "venue_id"=>"4bf5663994af2d7f15a93b72", "tip"=>"Great place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 660ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2019-06-17 18:31:28 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 289ms (Views: 40.2ms | ActiveRecord: 0.0ms)
