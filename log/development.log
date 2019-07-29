@@ -1535,3 +1535,760 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/" for ::1 at 2019-07-29 15:26:17 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 15:26:22 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 15:28:39 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 15:40:27 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 15:48:16 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 15:49:28 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 15:56:03 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 15:56:07 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 15:56:42 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 16:05:28 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=BVRUKGMVPQG3WMFPKKLCMHQWDMMQT5YS4PXU3YPCFGMWIBMD&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4EVYUUAT5UQUNWSFGL2NFQRHCPPNO0SUJJCQT1SQDM3VB3UO" for ::1 at 2019-07-29 16:05:38 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4EVYUUAT5UQUNWSFGL2NFQRHCPPNO0SUJJCQT1SQDM3VB3UO"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 213ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 16:05:38 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 440ms (Views: 438.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-07-29 16:05:39 -0400
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2019-07-29 16:05:39 -0400
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for ::1 at 2019-07-29 16:05:39 -0400
+Started GET "/" for ::1 at 2019-07-29 16:09:52 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 45ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:11:20 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YFiFsJr6V77Hsr+9pK0ApURro4TYukKEOeFZKYYeJDYXgX0QRyLKHl0RxOZliAVQDTSfsp2pyUuc70+TKrDRsQ==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 118ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:11:25 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zlcBfr7KRlKyXiv6fRnWGOJma4RIQ6lzbXdWMYdpzky5jvneYxLb8ij9UKG8PNPtqzlXsg1QIrzIeUCLK8c7yw==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 87ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 16:25:42 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 16:25:45 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 16:28:59 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 16:29:22 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 260ms (Views: 251.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 16:29:28 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:29:29 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Gpax/P7+b0/A/Q2m4KKbqnXsMYc32DkYimmJzEiaWCrs6JnLiNkHaWgj21ap4+b4IiM8FnM6yvHJ7CdnYyc5w==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 168ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:30:04 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/tips_controller.rb:19:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___3968015413076550062_70253715752980 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.0ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.0ms)
+Started GET "/search" for ::1 at 2019-07-29 16:30:10 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 16:30:59 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:31:02 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DB5GS1i4yUgD5QbblbRppLpRzu8SIHdwAeHHXH5C+JZ7x77rhWBU6JlGfYBUkWxR8w7y2Vcz/L+k79Hm0uwNEQ==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 509ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:31:13 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"63xGJEE4yF78vDX2dw7iOEpLlPDnfvSMEUrRE4oO0g6cpb6EnOBV/mYfTq22K+fNAxSoxqJtf0O0RMepJqAniQ==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 530ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:31:14 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/tips_controller.rb:19:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___3968015413076550062_70253708278100 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.4ms)
+Started GET "/search" for ::1 at 2019-07-29 16:31:28 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:31:30 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n+zOaaKqhrrI2LZJ5XYVrJm14htNKgm3v7BMA6CLUEzoNTbJf3IbGlJ7zRIkUxBZ0OreLQg5gngavlq5DCWlyw==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 263ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:31:34 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p5wCy0RdzXMBPomcjXR3HqTE32b/5kTRK2m/r0P7FHDQRfprmYVQ05ud8sdMUXLr7ZvjULr1zx6OZ6kV71Xh9w==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 130ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:31:34 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/tips_controller.rb:19:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___3968015413076550062_70253701924060 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.3ms)
+Started GET "/search" for ::1 at 2019-07-29 16:32:16 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:32:20 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TtZXM+CrKUPKWpLw9wBQbpqVJlO+HVk8Kz9esYD8fqw5D6+TPXO041D56as2JVWb08oaZfsO0vOOMUgLLFKLKw==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 235ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:32:24 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oBZzK560830Zrntn0OtXfLifXM+pSuEXq/v59chmaLTXz4uLQ2xu3YMNADwRzlKJ8cBg+exZatgO9e9PZMidMw==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:32:24 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 61666ms (ActiveRecord: 0.0ms)
+
+
+  
+Started GET "/search" for ::1 at 2019-07-29 16:33:25 -0400
+Started GET "/search" for ::1 at 2019-07-29 16:33:25 -0400
+SystemExit (exit):
+  
+app/controllers/tips_controller.rb:20:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (138.0ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (36.8ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (208.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (8.6ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___3968015413076550062_70253679307720 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (93.2ms)
+Processing by SearchesController#search as HTML
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (12.5ms)
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 257ms (Views: 241.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 289ms (Views: 274.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-29 16:33:45 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 276ms (Views: 269.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:33:48 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dg0DMOc30JIKj11vn1K5bUI3Gh6uBhPMKqVuwPHw1Kh51PuQOu9NMpAsJjRed7yYC2gmKOsVmAOPq3h6XV4hLw==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 297ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:33:51 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"08O5Eu9hT4BgyTNSWl1L6Lrnr5oJaJIWJQqbS+OLYZ2kGkGyMrnSIPpqSAmbeE4d87iTrEx7GdmABI3xTyWUGg==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 93ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:33:51 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `resp' for #<TipsController:0x00007fe6beceeff8>
+Did you mean?  @resp):
+  
+app/controllers/tips_controller.rb:19:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___3936385917974851102_70314534557380 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.0ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (52.7ms)
+Started GET "/search" for ::1 at 2019-07-29 16:34:14 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:34:16 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gCL0LrCHwme9bOx/df982LPkORVKhT0hM+nbSKmKRdL3+wyObV9fxyfPlyS02nkt+rsFIw+Wtu6W583yBSSwVQ==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 289ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:34:20 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tvIvNU/wTej2SLKpk2/6XE+yegcVq53TCtE5hvno1czBK9eVkijQSGzryfJSSv+pBu1GMVC4Fhyv3y88VUYgSw==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 187ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:34:20 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 253608ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/tips_controller.rb:20:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (79.2ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.9ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (132.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___3936385917974851102_70314533840980 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (35.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (63.1ms)
+Started GET "/search" for ::1 at 2019-07-29 16:39:05 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 247ms (Views: 238.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:39:09 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9W2wtO2De8Yu3ldHgUnF15w8Pq3a8A8+fwqUOi8vrReCtEgUMFvmZrR9LBxAbMAi1WMCm5/jhPHaBIKAg4FYkA==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 335ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:39:13 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qW8eLgaG1CTu9jnjdxYvmuASl2mJecpKZU7IOSB2cPHetuaO215JhHRVQri2MypvqU2rX8xqQYXAQN6DjNiFdg==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:39:13 -0400
+Processing by TipsController#index as HTML
+  Rendering tips/index.html.erb within layouts/application
+  Rendered tips/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    2: <h1>My Tips</h1>
+    3: <ul>
+    4: <% @results.each do |item| %>
+    5:   <li><strong><%= item["venue"]["name"] %></strong><br>
+    6:     <%= item["tip"]["text"] %></li>
+    7: <% end %>
+    8: </ul>
+  
+app/views/tips/index.html.erb:5:in `[]'
+app/views/tips/index.html.erb:5:in `block in _app_views_tips_index_html_erb__3502075314409165711_70208410075080'
+app/views/tips/index.html.erb:4:in `each'
+app/views/tips/index.html.erb:4:in `_app_views_tips_index_html_erb__3502075314409165711_70208410075080'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.1ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__4496224857790557918_70208442716540 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (52.4ms)
+Started GET "/search" for ::1 at 2019-07-29 16:40:33 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:40:37 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5YUg19HU6HLjbHOGSVLSuQZ5oZY++hNPeqpd0dk/CHGSXNh3DAx10nnPCN2Id9dMTyadoHvpmIDfpEtrdZH99g==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 396ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:40:41 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OJ1mzyQQ6N+XObNfjbBIy7BpWHAGlAWQCjrwmkwC+DlPRJ5v+ch1fw2ayARMlU0++TZkRkOHjl+vNOYg4KwNvg==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:40:41 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/tips_controller.rb:19:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__4496224857790557918_70208436560060 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.3ms)
+Started GET "/search" for ::1 at 2019-07-29 16:42:03 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:42:05 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AKFwC1951yNLbytKAuZ6IKog2UV5MeNnqf0+/FZar0B3eIirgqFKg9HMUBHDw3/V43/lczwiaKgM8yhG+vRaxw==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 304ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:42:08 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OyYaue/6PXVCbyfaS+2r361sAPMOw784D8x3z6oNjfFM/+IZMiKg1djMXIGKyK4q5DM8xUvQNPeqwmF1BqN4dg==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 118ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:42:08 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/tips_controller.rb:19:in `index'
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_stefclaus__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__4496224857790557918_70208436321180 at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.7ms)
+Started GET "/search" for ::1 at 2019-07-29 16:42:24 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:42:26 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"amiClvb4KHDKyKgqRmHSOLUVzjogwYvh4cjnFWB684cdsXo2KyC10FBr03GHRNfN/EryDGXSAC5ExvGvzNQGAA==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 226ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:42:30 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jrJOCOJkwlGkTtTdPVGm8mWZXcb0tw5+Pp07Xw39Kev5a7aoP7xf8T7tr4b8dKMHLMZh8LGkhbGbky3loVPcbA==", "venue_id"=>"4df7761145dd222116c9706c", "tip"=>"I work near here.", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 87ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:42:30 -0400
+Processing by TipsController#index as HTML
+Started GET "/tips" for ::1 at 2019-07-29 16:43:39 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by TipsController#index as HTML
+Started GET "/search" for ::1 at 2019-07-29 16:45:47 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 281ms (Views: 272.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:45:52 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5y8PrRWQ1cFejmAzWwTQR8q8NyM4RhJ92ynRlmsrWNKQ9vcNyEhIYcQtG2iaIdWyg+MLFX1VmbJ+J8csx4WtVQ==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 266ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:46:09 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z2MizLPBywqn96O/yYUicjs8A+66uX/kpK/MCsSOHvEQutpsbhlWqj1U2OQIoCeHcmM/2P+q9CsBodqwaCDrdg==", "venue_id"=>"4ad89dd4f964a520e21221e3", "tip"=>"I live hear here", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 515ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:46:09 -0400
+Processing by TipsController#index as HTML
+Started GET "/search" for ::1 at 2019-07-29 16:48:04 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/stefclaus/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 289ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-29 16:48:08 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9rUHgW1GyxcuNNHkwm7NiMEEKNDJiLBKsSo8K8AD3P+BbP8hsJ5Wt7SXqr8DS8h9iFsU5oybO4UUJCqRbK0peA==", "zipcode"=>"20010", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 287ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-07-29 16:48:16 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NYBxZyDDbfAv+KoEqOD5+xBoBs0ntlB2oANHY8+bLEtCWYnH/RvwULVb0V9pxfwOWTc6+2Kl27kFDVHZYzXZzA==", "venue_id"=>"4b76e5d3f964a52057682ee3", "tip"=>"I haven't been here before", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 520ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-07-29 16:48:16 -0400
+Processing by TipsController#index as HTML
+  Rendering tips/index.html.erb within layouts/application
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 187ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
