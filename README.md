@@ -198,3 +198,6 @@ In Postman, there's a section under the URL entry that has a place where you can
 Pay close attention to the documentation of the API provider to make sure you're setting your request data in the right place!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-posting-requests' title='Posting to APIs'>Posting to APIs</a> on Learn.co and start learning to code for free.</p>
+
+session[:token] = 'ASYWB44QHDMIZSG5NERJY4NTIF0K4IS5APC551QL2N11BAPR'
+venueId = '4a62329cf964a52059c31fe3'
