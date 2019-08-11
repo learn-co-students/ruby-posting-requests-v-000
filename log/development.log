@@ -1535,3 +1535,75 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2017-12-17 17:06:36 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 437ms (Views: 428.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-17 17:07:04 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-17 17:17:23 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 115ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-17 17:17:29 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bx6Z0ZSnuPh4ml6QyoReFeiwMgrBMJVM/iTlm37b3l69J1j9WWbMkSm54BJ1tZIjzqQ+zZPyYnrxwNe+P1UIcg==", "zipcode"=>"11222", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 385ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-17 17:17:40 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCOMJiDjLHirZx/Z563PqUrDnmB+TMeE0fcGYLBkET72Gk0K7SJYEfpEoVtYnAOfbNeSpyyOMLLeEzRF8erHEg==", "zipcode"=>"10010", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 321ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-17 17:17:42 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HEpWegaGUWVhP2lvHb5uJmxn+1MlsByFxjKx6WnV94/Oc5dWy0clDDAc1+2ij6IQSnP3lHdy67PJ1oPMKFshow==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 130ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-17 17:17:45 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFcO/h88E3Pj2ImXGr0YZzYW3J9Mm+g2V82KiUWmecvKbs/S0v1nGrL7NxWljNRREALQWB5ZHwBYKbisBCiv5w==", "zipcode"=>"10010", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 316ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-12-17 17:58:16 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-17 17:58:21 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4avdEyPRks6+eTfW9rIiJc8NI73nI1W+jHK1RNcgXA4zkhw/7hDmp+9aiVRJg+4T6RkverXhooiDlodhlq6KIg==", "zipcode"=>"10009", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 377ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-12-17 17:58:42 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B1jXwS9WFGBRj4fPeFJbKzAZl12IAoWi+gB505ohUhfVYRbt4pdgCQCsOU3HY5cdFg2bmtrAcpT15Ev226+EOw==", "venue_id"=>"4e148d78922ece3933e9860b", "tip"=>"Great for working", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 290ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-12-17 17:58:42 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 193ms (Views: 34.3ms | ActiveRecord: 0.0ms)
