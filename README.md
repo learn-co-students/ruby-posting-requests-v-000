@@ -12,7 +12,7 @@ We're going to keep working with our Foursquare application and allow users to a
 
 **Note:** Don't forget to set up your `.env` file (or copy it from the previous lesson)!
 
-## Working With A POST API Endpoint
+## Working With A POST API Endpointb
 
 If we look at the [Add Tip documentation](https://developer.foursquare.com/docs/tips/add), we'll see that we need to make this request via POST. Up until now we've been making GET requests, because we're just asking for data. But once we start changing data on the server, we're in POST territory.
 
