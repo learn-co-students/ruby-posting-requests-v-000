@@ -1535,3 +1535,54 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2017-12-26 12:50:58 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 571ms (Views: 560.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-12-26 14:25:37 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 342ms (Views: 331.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-26 14:25:40 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LtXC0geIRb9gOVzy3bzOKTm1sdHsHQqmw4R0FLGhl40tkQTrr6Xl9UobLsdQtJNCFw8SE9SvVxFI8Q8G49dUPA==", "zipcode"=>"97211", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 354ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-12-26 14:25:50 -0800
+
+SyntaxError (/Users/jamesonbass/Development/code/ruby-posting-requests-v-000/app/controllers/tips_controller.rb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/tips_controller.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.8ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (64.6ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/jamesonbass/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (143.1ms)
+
+
+Started GET "/tips" for ::1 at 2017-12-26 14:26:08 -0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 239ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-12-26 14:26:21 -0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 265ms (Views: 19.3ms | ActiveRecord: 0.0ms)
