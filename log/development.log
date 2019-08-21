@@ -1535,3 +1535,124 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2018-01-04 16:35:13 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 640ms (Views: 628.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-04 17:20:43 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 91ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-04 17:20:47 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5bMxtBB145tgr/6XyVv0ZUcMrju03vy4E+9WVoXg8zDXiWMWyYcWyYhlltDLf0yG3ZxeGHQUQ8d2+LhnngPa0Q==", "zipcode"=>"11354", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 602ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-01-04 17:20:53 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KU9wtLgNmntXEv3bjvle3y5tAXwpYL1KmRJhwC7XOnUbdSIWYf9vKb/YlZyM3eY8tP3xX+mqAjX8BY/xNTQTlA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"test", "commit"=>"Save changes"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 256ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:20:53 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 232ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:21:02 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 224ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:21:05 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 232ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-04 17:21:11 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-04 17:21:15 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jw/YrUE+/0dVhXwtq5vyDGuGwjhOLB7M33DJo9bltF29NYoPmMwKFb1PFGqpv0rv8RYyG47mobO6ZyeSzQadvA==", "zipcode"=>"11354", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 358ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-01-04 17:21:24 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e+EA/KstmkDkjh6SCwB8lYkMQgWJXN6zLcQv00Q5Cm9J21Ject9vEgxEdtUJJMR2E5yyJkmWYcxI08HiX9ojjg==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"another one", "commit"=>"Save changes"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 414ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:21:24 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 342ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-01-04 17:22:01 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e+EA/KstmkDkjh6SCwB8lYkMQgWJXN6zLcQv00Q5Cm9J21Ject9vEgxEdtUJJMR2E5yyJkmWYcxI08HiX9ojjg==", "venue_id"=>"4a5a2472f964a520c6b91fe3", "tip"=>"Me likes", "commit"=>"Save changes"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 249ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:22:02 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 286ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:22:05 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 268ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:22:07 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 261ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-04 17:22:10 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-04 17:22:14 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0MoPREgX3EPe5Q5w67LH4FKWCtOzH23VQZCnbmsGMYDi8F3mkeUpETYvZjfpln8DyAb68HPV0qokh0lfcOUYYQ==", "zipcode"=>"11354", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 352ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-01-04 17:22:22 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rnXg2iBU0UgJpjyqYXM9mYXR3JPJq3Rzixuy75KEKgmcT7J4+aYkGuFsVO1jV4V6H0EssAlhywzuDFzeiWcD6A==", "venue_id"=>"433f2300f964a52050281fe3", "tip"=>"I like this one!", "commit"=>"Save changes"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 480ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-04 17:22:23 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 248ms (Views: 21.9ms | ActiveRecord: 0.0ms)
