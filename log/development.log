@@ -1535,3 +1535,41 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+Started GET "/" for 196.52.2.7 at 2019-08-28 15:56:03 +0000
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3UYDNCLEPB0RITUOJNT3BU5EE3G45CWKKA5URQQB2SEVMUHH&response_type=code&redirect_uri=http%3A%2F%2F67.205.188.72%3A54778%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DHV1G1DSBDBI4KJYYNSG5HPZSWKGV3NZWS2UB5G4VTDNN3VX" for 196.52.2.7 at 2019-08-28 15:56:12 +0000
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DHV1G1DSBDBI4KJYYNSG5HPZSWKGV3NZWS2UB5G4VTDNN3VX"}
+Redirected to http://67.205.188.72:54778/
+Completed 302 Found in 475ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 196.52.2.7 at 2019-08-28 15:56:12 +0000
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 486ms (Views: 484.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 196.52.2.7 at 2019-08-28 15:56:13 +0000
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 196.52.2.7 at 2019-08-28 15:56:13 +0000
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 196.52.2.7 at 2019-08-28 15:56:13 +0000
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 196.52.2.7 at 2019-08-28 15:56:13 +0000
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 196.52.2.7 at 2019-08-28 15:56:13 +0000
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 196.52.2.7! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
