@@ -1535,3 +1535,37 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/" for 63.119.220.66 at 2019-09-18 16:35:57 +0000
+Cannot render console from 63.119.220.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=UPFWGB3CSOM2TU5HO25PMWKYJEGQKFV4HZPF4GNJVJ1LON52&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 100.2.104.87 at 2019-09-20 16:00:04 +0000
+Cannot render console from 100.2.104.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 18ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 100.2.104.87 at 2019-09-20 16:00:43 +0000
+Cannot render console from 100.2.104.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 100.2.104.87 at 2019-09-20 16:09:03 +0000
+Cannot render console from 100.2.104.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
