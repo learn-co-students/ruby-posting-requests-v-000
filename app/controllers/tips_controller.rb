@@ -6,7 +6,10 @@ class TipsController < ApplicationController
           req.params['v'] = '20160201'
           req.params['venueId'] = params[:venue_id]
           req.params['text'] = params[:tip]
+          # you can also type. "req.body['text'] = '{"my_params": "my_value"}'////req.params['text'] = params[:tip]"
         end
+
+      
      
         redirect_to tips_path
       end
