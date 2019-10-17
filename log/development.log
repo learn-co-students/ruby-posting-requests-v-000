@@ -1535,3 +1535,42 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/search" for ::1 at 2019-10-17 03:18:59 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/RonSala/.rvm/gems/ruby-2.6.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LYF04ZFBKBZMSIDR3ZIQLRRISIHIGDERHKYV4OV4UITGF1VA&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 22ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MP1Z1FPQIGYFBPTFGNZVPHBCXIYMVF3TYJJOK5DT4JAJQZT4" for ::1 at 2019-10-17 03:19:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MP1Z1FPQIGYFBPTFGNZVPHBCXIYMVF3TYJJOK5DT4JAJQZT4"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 363ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-17 03:19:09 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 635ms (Views: 632.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for ::1 at 2019-10-17 03:19:10 -0400
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2019-10-17 03:19:10 -0400
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-10-17 03:19:10 -0400
+Started GET "/auth?code=M252S2AZGBA4B1GJYFRQNJ14J5WOP5TOVUU4GX2DFQKVMZNP" for ::1 at 2019-10-17 03:25:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"M252S2AZGBA4B1GJYFRQNJ14J5WOP5TOVUU4GX2DFQKVMZNP"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 215ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-17 04:20:08 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 201ms (Views: 189.3ms | ActiveRecord: 0.0ms)
+
+
