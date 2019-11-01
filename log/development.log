@@ -1535,3 +1535,181 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for 68.199.60.101 at 2017-11-29 22:45:13 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 68.199.60.101 at 2017-11-29 22:47:34 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 68.199.60.101 at 2017-11-29 22:48:52 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DM1KTMUIYQUWK4JSWFLJH1Z0YECHUCVJPEI2UFATJJAQHIBW" for 68.199.60.101 at 2017-11-29 22:48:56 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DM1KTMUIYQUWK4JSWFLJH1Z0YECHUCVJPEI2UFATJJAQHIBW"}
+Redirected to http://67.205.182.198:41178/
+Completed 302 Found in 163ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.199.60.101 at 2017-11-29 22:48:56 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4YZFIOOAAI53Y3M50MRYJHOK0QUAJMVTQAISZRVMMYKSHZHU" for 68.199.60.101 at 2017-11-29 22:48:58 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4YZFIOOAAI53Y3M50MRYJHOK0QUAJMVTQAISZRVMMYKSHZHU"}
+Redirected to http://67.205.182.198:41178/
+Completed 302 Found in 105ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.199.60.101 at 2017-11-29 22:48:58 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 68.199.60.101 at 2017-11-29 22:49:08 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JN0HGQIBHHFBSTRESLEHC5KAWFGUTBUIOYZYRQCA1UIMWU33" for 68.199.60.101 at 2017-11-29 22:49:26 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JN0HGQIBHHFBSTRESLEHC5KAWFGUTBUIOYZYRQCA1UIMWU33"}
+Redirected to http://67.205.182.198:41178/
+Completed 302 Found in 111ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.199.60.101 at 2017-11-29 22:49:27 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NRCJOFSC0OORJXZY40PZTBH4Z1VKG4XWYH1ZOPHJIQLSKR5Z" for 68.199.60.101 at 2017-11-29 22:49:30 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NRCJOFSC0OORJXZY40PZTBH4Z1VKG4XWYH1ZOPHJIQLSKR5Z"}
+Redirected to http://67.205.182.198:41178/
+Completed 302 Found in 43ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.199.60.101 at 2017-11-29 22:49:31 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OKXSGYSZV44RT0NJ2B3LH25020X4VSJ3P0ZC0EE0UKM00FCV" for 68.199.60.101 at 2017-11-29 22:49:32 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OKXSGYSZV44RT0NJ2B3LH25020X4VSJ3P0ZC0EE0UKM00FCV"}
+Redirected to http://67.205.182.198:41178/
+Completed 302 Found in 43ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.199.60.101 at 2017-11-29 22:49:32 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=WOENLTMR3AUD0TMGTAU2IYHTXNDOAKI0QY0XHTDWWWYTV2L0&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A41178%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VFSEODNBFCXQYXU1JVUPVLZN42S3NZPUF0THBEXFMGQZSRTO" for 68.199.60.101 at 2017-11-29 22:50:06 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VFSEODNBFCXQYXU1JVUPVLZN42S3NZPUF0THBEXFMGQZSRTO"}
+Redirected to http://67.205.182.198:41178/
+Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.199.60.101 at 2017-11-29 22:50:07 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 488ms (Views: 487.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 68.199.60.101 at 2017-11-29 22:50:07 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 68.199.60.101 at 2017-11-29 22:50:07 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 68.199.60.101 at 2017-11-29 22:50:07 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 68.199.60.101 at 2017-11-29 22:50:07 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 68.199.60.101 at 2017-11-29 22:50:07 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/search" for 68.199.60.101 at 2017-11-29 23:07:15 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HyBzyEgwdbHZWAJ92gisybDL3+rrwaAct947b/WKvfbitkayEmhFnHMILacSw8bacOl6mCn3S28iPdiGbxaXXQ==", "zipcode"=>"07055", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 191ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 68.199.60.101 at 2017-11-29 23:07:26 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kpGW7/PQ8rmCMssWh5ahMIy4hWccCqWXMFh37itxw3FvB6OVqYjClChi5MxPXcsjTJogFd48TuSlu5QHse3p2g==", "zipcode"=>"10033", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 213ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 68.199.60.101 at 2017-11-29 23:35:57 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 232ms (Views: 221.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 68.199.60.101 at 2017-11-29 23:36:02 +0000
+Cannot render console from 68.199.60.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xT4m3P/PVW90Vva5Uzle/YoMYkt6gAuJXmNLP0sQPy04qBOmpZdlQt4G2WOb8jTuSi7HObi24PrLgKjW0YwVhg==", "zipcode"=>"07055", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 305ms (Views: 35.6ms | ActiveRecord: 0.0ms)
