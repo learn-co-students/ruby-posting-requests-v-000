@@ -1535,3 +1535,848 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:15:21 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:23 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PA4LW1LQYK1R3K4BO5VIUIMOOO5US3TCKXLOHAXAW4SAXRAW" for 68.83.107.163 at 2018-03-12 23:16:23 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PA4LW1LQYK1R3K4BO5VIUIMOOO5US3TCKXLOHAXAW4SAXRAW"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 108ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:23 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HQB5L2VH1VFFGKAAVOEXWTCBMVGR2HGL10V3DVKLSXLD4BBJ" for 68.83.107.163 at 2018-03-12 23:16:23 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HQB5L2VH1VFFGKAAVOEXWTCBMVGR2HGL10V3DVKLSXLD4BBJ"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 80ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:23 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MYHGNUPNY1GKOMFP5GE5EYOM2GXJCLQA404MNROZ0SE2G5SV" for 68.83.107.163 at 2018-03-12 23:16:23 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MYHGNUPNY1GKOMFP5GE5EYOM2GXJCLQA404MNROZ0SE2G5SV"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NNAYRND2YRP3UT2LBPNXCKWMTWVID0RQQFBO0N40P501E5UF" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NNAYRND2YRP3UT2LBPNXCKWMTWVID0RQQFBO0N40P501E5UF"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SOZEIETXDEDXFKTND23LFJADYCAVIBCWU0RBTDGBZE33PC3S" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SOZEIETXDEDXFKTND23LFJADYCAVIBCWU0RBTDGBZE33PC3S"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TVMQEN2LPEE4T4B3B3DW3ONHXYC2TKIIJWN0NGUCH4A3NOZT" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TVMQEN2LPEE4T4B3B3DW3ONHXYC2TKIIJWN0NGUCH4A3NOZT"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 78ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:24 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0YE1OT0MKEO4O0W3MNV5KZBTIIS22SJ1JQAALV0EAT2SWZ1O" for 68.83.107.163 at 2018-03-12 23:16:25 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0YE1OT0MKEO4O0W3MNV5KZBTIIS22SJ1JQAALV0EAT2SWZ1O"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0YE1OT0MKEO4O0W3MNV5KZBTIIS22SJ1JQAALV0EAT2SWZ1O" for 68.83.107.163 at 2018-03-12 23:16:25 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0YE1OT0MKEO4O0W3MNV5KZBTIIS22SJ1JQAALV0EAT2SWZ1O"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 91ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:25 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KMY4DWVQ0U4AQR55MPW15B5VAPIV3ROIZNBBQQ5IFIK4DR2Y" for 68.83.107.163 at 2018-03-12 23:16:25 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KMY4DWVQ0U4AQR55MPW15B5VAPIV3ROIZNBBQQ5IFIK4DR2Y"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:25 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SQQVH4LDLSN3PI22R5RDJP1NTAL2VRTSU3II5I1EHZHNLMKS" for 68.83.107.163 at 2018-03-12 23:16:26 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SQQVH4LDLSN3PI22R5RDJP1NTAL2VRTSU3II5I1EHZHNLMKS"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 92ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:26 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HZ4OWSVAPFRJNHCWBHNYH2OK0EYMJ5GXLESZZRAYS2MRU1GZ" for 68.83.107.163 at 2018-03-12 23:16:26 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HZ4OWSVAPFRJNHCWBHNYH2OK0EYMJ5GXLESZZRAYS2MRU1GZ"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 135ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:26 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=BKDXF54QC1B4SZBTXKB0JLPEAZN0N1Q0CY20QL515RKX354C" for 68.83.107.163 at 2018-03-12 23:16:26 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BKDXF54QC1B4SZBTXKB0JLPEAZN0N1Q0CY20QL515RKX354C"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 99ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:26 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RYBKRJOFR3VYVYUKAWSAT4O40KMS10TIONJ3BLDJSXQKGPDZ" for 68.83.107.163 at 2018-03-12 23:16:27 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"RYBKRJOFR3VYVYUKAWSAT4O40KMS10TIONJ3BLDJSXQKGPDZ"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:27 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QZTMB1YBAN40P5TQYMGUECKZFES50J0JZRRH5NMHRR25XUHO" for 68.83.107.163 at 2018-03-12 23:16:27 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QZTMB1YBAN40P5TQYMGUECKZFES50J0JZRRH5NMHRR25XUHO"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 90ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:27 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0YE1OT0MKEO4O0W3MNV5KZBTIIS22SJ1JQAALV0EAT2SWZ1O" for 68.83.107.163 at 2018-03-12 23:16:27 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0YE1OT0MKEO4O0W3MNV5KZBTIIS22SJ1JQAALV0EAT2SWZ1O"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:27 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5HRSJWGEUVKMHSMH214ZELKOS3GGMMFONHVW2VWMGDNE03AF" for 68.83.107.163 at 2018-03-12 23:16:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5HRSJWGEUVKMHSMH214ZELKOS3GGMMFONHVW2VWMGDNE03AF"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 145ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WUDSOP21NCEZHUPHXLBXMQUM5JTG13V2J4HFINS4FC4Y0YPG" for 68.83.107.163 at 2018-03-12 23:16:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WUDSOP21NCEZHUPHXLBXMQUM5JTG13V2J4HFINS4FC4Y0YPG"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 82ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4JHBVH1CLQEGAZMALMHCOTHIVQXRKP2O5PUIBLOC2P2GQVGM" for 68.83.107.163 at 2018-03-12 23:16:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4JHBVH1CLQEGAZMALMHCOTHIVQXRKP2O5PUIBLOC2P2GQVGM"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FV1W2Q1AOGPGKAGTGNP1SF23VRIR0DML0UAIB04RUVQUPFNM" for 68.83.107.163 at 2018-03-12 23:16:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FV1W2Q1AOGPGKAGTGNP1SF23VRIR0DML0UAIB04RUVQUPFNM"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 94ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=2SVNRVTUHRF104AREVYY21TBZTWNCVFOSLE5DAF2GNU3Z12E" for 68.83.107.163 at 2018-03-12 23:16:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"2SVNRVTUHRF104AREVYY21TBZTWNCVFOSLE5DAF2GNU3Z12E"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 88ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KZRHE14ST5QADAC0NW0ZEKGIMBWBRKVKFU1BTYEYXEGRADCK" for 68.83.107.163 at 2018-03-12 23:16:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KZRHE14ST5QADAC0NW0ZEKGIMBWBRKVKFU1BTYEYXEGRADCK"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KZONXERIT5NYHFOUNNNKLA0KGRD3HLGE5ENYRRAWSZ2MFQEG" for 68.83.107.163 at 2018-03-12 23:16:31 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KZONXERIT5NYHFOUNNNKLA0KGRD3HLGE5ENYRRAWSZ2MFQEG"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:31 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=T3H55JCL2L0U131WJWIQEPQBEY1QAITHOZSEUASLQKBU5AXC" for 68.83.107.163 at 2018-03-12 23:16:31 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"T3H55JCL2L0U131WJWIQEPQBEY1QAITHOZSEUASLQKBU5AXC"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 81ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:31 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VGEYCXEZX2VI21GZTMOQTH5BLUS15Z5XFJAZSLAUI5BYTYTK" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VGEYCXEZX2VI21GZTMOQTH5BLUS15Z5XFJAZSLAUI5BYTYTK"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 111ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HCNDUCNDY0AYHNKLYH3Q2OO5DMCDRV0XOC11C21CBWBBO4XF" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HCNDUCNDY0AYHNKLYH3Q2OO5DMCDRV0XOC11C21CBWBBO4XF"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 92ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=H5ZRERC0LRCRQZUDZML2CNWMG5DTC541IWYNAFZ5DBJKPHNL" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"H5ZRERC0LRCRQZUDZML2CNWMG5DTC541IWYNAFZ5DBJKPHNL"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KWYWYW1UCOQS4O2OYHZLBD42VXHJ5ZH5NG15PKIXLIQ5V1L5" for 68.83.107.163 at 2018-03-12 23:16:32 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KWYWYW1UCOQS4O2OYHZLBD42VXHJ5ZH5NG15PKIXLIQ5V1L5"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:33 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OMMKZTCLKCYRL1WI3KBRZ1WCLMOGK3MQSC3KTOG3R52V1WUN" for 68.83.107.163 at 2018-03-12 23:16:33 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OMMKZTCLKCYRL1WI3KBRZ1WCLMOGK3MQSC3KTOG3R52V1WUN"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:16:33 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:18:58 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=J4R2R1XFV40PF1G4C3SO40E2TDDM3O3HBVE1IKJHB1FE3LEH" for 68.83.107.163 at 2018-03-12 23:18:58 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"J4R2R1XFV40PF1G4C3SO40E2TDDM3O3HBVE1IKJHB1FE3LEH"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:18:58 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DEIZ1UD5KY3XXL1BVTLBXUKJ1CYDNBJLXKA44B3NAMQ0AZM4" for 68.83.107.163 at 2018-03-12 23:18:58 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DEIZ1UD5KY3XXL1BVTLBXUKJ1CYDNBJLXKA44B3NAMQ0AZM4"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=APXTCKF4KC1FSZZBELMDFQ0RLWQ41DQBYMOTHPORJSNSNNFW" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"APXTCKF4KC1FSZZBELMDFQ0RLWQ41DQBYMOTHPORJSNSNNFW"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=V0EVCC1UHS0OZIBQMCGK4X4KUH1ZZIWOB2PWPX0XNYJACPQY" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"V0EVCC1UHS0OZIBQMCGK4X4KUH1ZZIWOB2PWPX0XNYJACPQY"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 77ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5QKML3U53ON3RFEXLROCR2AYRA3XQUP23JZND0YGUVGWOJRQ" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5QKML3U53ON3RFEXLROCR2AYRA3XQUP23JZND0YGUVGWOJRQ"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:18:59 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ULGUOZA5Q14HDFHI1B5JAAKVUBQKHUOQRSJDUCYY5KGDWGOH" for 68.83.107.163 at 2018-03-12 23:19:00 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ULGUOZA5Q14HDFHI1B5JAAKVUBQKHUOQRSJDUCYY5KGDWGOH"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 82ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:00 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I" for 68.83.107.163 at 2018-03-12 23:19:00 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I" for 68.83.107.163 at 2018-03-12 23:19:00 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:00 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TZPUEFILWSWUOBH1W41XSN3NNGJ0QMIGJ2MUUKCHHC5CVM3V" for 68.83.107.163 at 2018-03-12 23:19:00 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TZPUEFILWSWUOBH1W41XSN3NNGJ0QMIGJ2MUUKCHHC5CVM3V"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 90ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=R54O52UZ20WNC0ABQPSISJ4AQP0G3POESE1L4LBSQ0JQAX1G" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"R54O52UZ20WNC0ABQPSISJ4AQP0G3POESE1L4LBSQ0JQAX1G"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 114ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1JZUBYHBUAF3XWCDCACXDUCD5QGZ4ETLOY2TIIFILX5QZEEA" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1JZUBYHBUAF3XWCDCACXDUCD5QGZ4ETLOY2TIIFILX5QZEEA"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 73ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0UILVOIQLNXZNH5TV1BLIQRCSQJWAD3I2VALV1PR2NQNANAT" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0UILVOIQLNXZNH5TV1BLIQRCSQJWAD3I2VALV1PR2NQNANAT"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 76ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:01 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=X0EFERJ0HCKW0OYTPSMR10NYPG53PAF2DJVDRCUDEFS11T3T" for 68.83.107.163 at 2018-03-12 23:19:02 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"X0EFERJ0HCKW0OYTPSMR10NYPG53PAF2DJVDRCUDEFS11T3T"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:02 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1ZZXP5HEQTKHD4HCAE34TBZLHS3YDRUENCXPNWNIRRJP4CMF" for 68.83.107.163 at 2018-03-12 23:19:02 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1ZZXP5HEQTKHD4HCAE34TBZLHS3YDRUENCXPNWNIRRJP4CMF"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 93ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:19:02 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I" for 68.83.107.163 at 2018-03-12 23:21:20 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 110ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:20 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=X4RWYRHX3WMBTSFO05YGMHR5J1IMMN2U3UKIPMEV4FLLS5OO" for 68.83.107.163 at 2018-03-12 23:21:21 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"X4RWYRHX3WMBTSFO05YGMHR5J1IMMN2U3UKIPMEV4FLLS5OO"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 79ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:21 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CPMROVZORBTNP4MCGKWD4PPRXIJSXKDIWYATJPKKSEONU0TQ" for 68.83.107.163 at 2018-03-12 23:21:21 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CPMROVZORBTNP4MCGKWD4PPRXIJSXKDIWYATJPKKSEONU0TQ"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:21 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HZEQXIWSO3RVB3XCKG5JCODUI3SB33WPPMFONTJKYKNUFRFP" for 68.83.107.163 at 2018-03-12 23:21:21 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HZEQXIWSO3RVB3XCKG5JCODUI3SB33WPPMFONTJKYKNUFRFP"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 86ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4Z5WPBEJU4YNV2BNQJC3EKQP5SM5MT0DBZBHLITBZ35BCZXM" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4Z5WPBEJU4YNV2BNQJC3EKQP5SM5MT0DBZBHLITBZ35BCZXM"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FFEGUYJY1GHV0HFDHXHDBHUENISXNN5BLIZS5U4UVIYOAYEQ" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FFEGUYJY1GHV0HFDHXHDBHUENISXNN5BLIZS5U4UVIYOAYEQ"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DZN1YI03NA1V4SXWDINDIHNMYI5HVZTAZZOZI2H2ZS00AEEV" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DZN1YI03NA1V4SXWDINDIHNMYI5HVZTAZZOZI2H2ZS00AEEV"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 70ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:22 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=A02K0TVDDMQG4RD3H3IS0FNKANRPAGBK2H35V1OOW3AJXHP4&response_type=code&redirect_uri=https%3A%2F%2F80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I" for 68.83.107.163 at 2018-03-12 23:21:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HQCFIYLS3T4IVGT3ISODGCYXODBR2ZCW32ZGEZSMFFKRLA0I"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 117ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:21:29 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 395ms (Views: 394.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.83.107.163 at 2018-03-12 23:46:05 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 68.83.107.163 at 2018-03-12 23:46:11 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vp3Jr4zG+qmXuMKnqyBap0ysISaiWwxAdzxQzQq6a+QTUwYb1/TUmGdj60hrJRrQtVirgUfXMe+yfW6i5TCvQQ==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 146ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 68.83.107.163 at 2018-03-12 23:46:18 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NX1OFrZgVrGCkj20nAxuMWt0cS971Ug5wactnTv2lDaYs4Gi7VJ4gHJJFFtcCS5GkoD7iJ5ZdZYE5hPy1HxQkw==", "zipcode"=>"75080", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 257ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 68.83.107.163 at 2018-03-12 23:46:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cwtc141i69YQbKIjY4APASiXLG0tlIywWyUkQMUyfjrexZNj1lDF5+C3i8yjhU920WOmysgYsR+eZBovKri6nw==", "venue_id"=>"4eb2a8dee5faec3a7e3d9c7f", "tip"=>"Great place for fun", "commit"=>"Add Tip"}
+Redirected to https://80887eaf7a0b474e9fa06d513302b5b6.vfs.cloud9.us-east-2.amazonaws.com/tips
+Completed 302 Found in 186ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 68.83.107.163 at 2018-03-12 23:46:28 +0000
+Cannot render console from 68.83.107.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 130ms (Views: 11.8ms | ActiveRecord: 0.0ms)
