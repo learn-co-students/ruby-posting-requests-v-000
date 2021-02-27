@@ -1535,3 +1535,83 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-09-27 09:14:04 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 720ms (Views: 696.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-09-27 17:42:16 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (98.1ms)
+Completed 200 OK in 214ms (Views: 202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-09-27 17:42:17 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-09-27 17:42:19 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-27 17:42:19 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-09-27 17:42:19 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-09-27 17:42:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-09-27 17:42:19 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-27 17:42:19 -0400
+
+
+Started GET "/search" for ::1 at 2016-09-27 17:42:38 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-09-27 17:42:38 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-27 17:42:38 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-09-27 17:42:38 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-09-27 17:42:38 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-27 17:42:38 -0400
+
+
+Started POST "/search" for ::1 at 2016-09-27 17:43:10 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CNda/oTNkMwYnwQp/MCeJeeCCEiIQGxQAZtrR1N9GqJBkht2wtVigTwrO8jLnwXnegH3F80h2h4XRfKESdhacg==", "zipcode"=>"19067", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 644ms (Views: 381.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-09-27 17:43:19 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"82/YppA0CLCafL91VnDVbwv1rYS6sx0Lwipnv11XwFG6Kpku1iz6/b7IgJRhL06tlnZS2//Sq0XU9P58R/KAgQ==", "venue_id"=>"50c35d8ee4b02917136961b9", "tip"=>"\"Nice coffee\"", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 158ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-09-27 17:43:19 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 140ms (Views: 41.9ms | ActiveRecord: 0.0ms)
